@@ -1,4 +1,4 @@
-import dmvQuestionsJson from "../data/california_dmv_farsi_questions_300.json";
+import dmvQuestionsJson from "../data/california_dmv_farsi_questions_300_rtl_fixed.json";
 
 export type DmvQuestionAnswer = {
   id: string;
