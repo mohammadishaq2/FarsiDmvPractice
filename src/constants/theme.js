@@ -11,7 +11,7 @@ export const colors = {
   border: "#D8E7F7",
   chipBg: "#E7F2FF",
   chipText: "#1F5F96",
-} as const;
+};
 
 export const spacing = {
   xs: 6,
@@ -19,14 +19,14 @@ export const spacing = {
   md: 14,
   lg: 16,
   xl: 20,
-} as const;
+};
 
 export const borderRadius = {
   sm: 10,
   md: 14,
   lg: 18,
   pill: 999,
-} as const;
+};
 
 export const typography = {
   title: {
@@ -50,7 +50,7 @@ export const typography = {
     fontSize: 12,
     fontWeight: "700",
   },
-} as const;
+};
 
 export const shadows = {
   card: {
@@ -67,4 +67,4 @@ export const shadows = {
     shadowOffset: { width: 0, height: 5 },
     elevation: 2,
   },
-} as const;
+};
