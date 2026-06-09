@@ -8,9 +8,9 @@ import { BilingualText } from "../components/BilingualText";
 import { colors, shadows, spacing, typography } from "../constants/theme";
 import { getAllQuestions } from "../utils/questionUtils";
 import {
-  getSavedQuestionIds,
-  getTestHistory,
-  getWrongQuestionIds,
+    getSavedQuestionIds,
+    getTestHistory,
+    getWrongQuestionIds,
 } from "../utils/storageUtils";
 
 type ActionButton = {
@@ -189,7 +189,6 @@ export default function HomeScreen() {
               faStyle={styles.subtitleFa}
             />
           </View>
-
         </LinearGradient>
 
         <View style={styles.statsGrid}>

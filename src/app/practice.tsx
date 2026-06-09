@@ -18,6 +18,7 @@ import { EmptyState } from "../components/EmptyState";
 import { PrimaryButton } from "../components/PrimaryButton";
 import { ProgressBar } from "../components/ProgressBar";
 import { borderRadius, colors, shadows, spacing } from "../constants/theme";
+import { signImages } from "../utils/imageMap";
 import { DmvQuestion, getAllQuestions } from "../utils/questionUtils";
 import {
     incrementPracticeAnswerStats,
@@ -32,6 +33,16 @@ import {
 
 function readParam(value: string | string[] | undefined) {
   return Array.isArray(value) ? value[0] : value;
+}
+
+function extractImageKey(imageValue: string | null) {
+  if (!imageValue) {
+    return null;
+  }
+
+  const cleanValue = imageValue.split("?")[0];
+  const parts = cleanValue.split("/");
+  return parts[parts.length - 1] || null;
 }
 
 export default function PracticeScreen() {
@@ -121,6 +132,11 @@ export default function PracticeScreen() {
 
   const currentQuestion: DmvQuestion | undefined = questions[currentIndex];
   const totalQuestions = questions.length;
+  const imageKey = extractImageKey(currentQuestion?.image ?? null);
+  const mappedImage = imageKey ? signImages[imageKey] : undefined;
+  const remoteImageUri =
+    currentQuestion?.imageSourceUrl ??
+    (currentQuestion?.image?.startsWith("http") ? currentQuestion.image : null);
   const progress =
     totalQuestions > 0 ? ((currentIndex + 1) / totalQuestions) * 100 : 0;
   const correctAnswerId = currentQuestion?.answers.find(
@@ -412,10 +428,19 @@ export default function PracticeScreen() {
           <Text style={styles.questionFa}>{currentQuestion.questionFa}</Text>
 
           {currentQuestion.image ? (
-            <Image
-              source={{ uri: currentQuestion.image }}
-              style={styles.questionImage}
-            />
+            mappedImage ? (
+              <Image
+                source={mappedImage}
+                style={styles.questionImage}
+                resizeMode="contain"
+              />
+            ) : remoteImageUri ? (
+              <Image
+                source={{ uri: remoteImageUri }}
+                style={styles.questionImage}
+                resizeMode="contain"
+              />
+            ) : null
           ) : null}
         </View>
 
