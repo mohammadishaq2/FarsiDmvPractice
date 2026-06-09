@@ -18,13 +18,7 @@ type ActionButton = {
   faTitle: string;
   enSubtitle: string;
   faSubtitle: string;
-  route:
-    | "/practice"
-    | "/mock-test"
-    | "/road-signs"
-    | "/saved"
-    | "/wrong-answers"
-    | "/test-history";
+  route: "/practice" | "/mock-test" | "/road-signs" | "/test-history";
   icon: string;
   iconColor: string;
   iconBackground: string;
@@ -60,26 +54,6 @@ const ACTION_BUTTONS: ActionButton[] = [
     icon: "🚦",
     iconColor: "#1E7C4D",
     iconBackground: "#E4F6EC",
-  },
-  {
-    enTitle: "Saved / Review Later",
-    faTitle: "ذخیره\u200cشده / مرور بعدی",
-    enSubtitle: "Bookmarks and flags",
-    faSubtitle: "سوالات نشان\u200cشده برای مرور",
-    route: "/saved",
-    icon: "🔖",
-    iconColor: "#7A3BA2",
-    iconBackground: "#F2E8FA",
-  },
-  {
-    enTitle: "Wrong Answers",
-    faTitle: "پاسخ\u200cهای اشتباه",
-    enSubtitle: "Fix weak points",
-    faSubtitle: "تقویت نقاط ضعف",
-    route: "/wrong-answers",
-    icon: "❌",
-    iconColor: "#B03232",
-    iconBackground: "#FCE8E8",
   },
   {
     enTitle: "Test History",
@@ -135,6 +109,7 @@ export default function HomeScreen() {
       value: totalQuestions,
       icon: "📚",
       bg: "#EAF2FF",
+      route: "/practice" as const,
     },
     {
       key: "saved",
@@ -143,6 +118,7 @@ export default function HomeScreen() {
       value: savedQuestionsCount,
       icon: "🔖",
       bg: "#F1ECFF",
+      route: "/saved" as const,
     },
     {
       key: "wrong",
@@ -151,6 +127,7 @@ export default function HomeScreen() {
       value: wrongAnswersCount,
       icon: "⚡",
       bg: "#FFEFF0",
+      route: "/wrong-answers" as const,
     },
     {
       key: "tests",
@@ -159,6 +136,7 @@ export default function HomeScreen() {
       value: testsCompletedCount,
       icon: "🏆",
       bg: "#EAF9EF",
+      route: "/test-history" as const,
     },
   ];
 
@@ -212,30 +190,18 @@ export default function HomeScreen() {
             />
           </View>
 
-          <Pressable
-            style={({ pressed }) => [
-              styles.heroPrimaryCta,
-              pressed && styles.actionCardPressed,
-            ]}
-            onPress={() => router.push("/practice")}
-          >
-            <View>
-              <BilingualText
-                en="Start Practice"
-                fa="شروع تمرین"
-                enStyle={styles.heroCtaEn}
-                faStyle={styles.heroCtaFa}
-              />
-            </View>
-            <Text style={styles.heroCtaArrow}>➜</Text>
-          </Pressable>
         </LinearGradient>
 
         <View style={styles.statsGrid}>
           {stats.map((stat) => (
-            <View
+            <Pressable
               key={stat.key}
-              style={[styles.statsCard, { backgroundColor: stat.bg }]}
+              style={({ pressed }) => [
+                styles.statsCard,
+                { backgroundColor: stat.bg },
+                pressed && styles.actionCardPressed,
+              ]}
+              onPress={() => router.push(stat.route as never)}
             >
               <View style={styles.statsCardTop}>
                 <View style={styles.statsIconWrap}>
@@ -249,7 +215,7 @@ export default function HomeScreen() {
                 />
               </View>
               <Text style={styles.statsValue}>{stat.value}</Text>
-            </View>
+            </Pressable>
           ))}
         </View>
 
@@ -479,34 +445,6 @@ const styles = StyleSheet.create({
     color: "#DBEEFF",
     fontWeight: "600",
     fontFamily: "sans-serif",
-  },
-  heroPrimaryCta: {
-    marginTop: 6,
-    borderRadius: 18,
-    backgroundColor: "#FFFFFF",
-    borderWidth: 1,
-    borderColor: "#D7E8FF",
-    paddingVertical: 12,
-    paddingHorizontal: 14,
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-  },
-  heroCtaEn: {
-    fontSize: 15,
-    fontWeight: "800",
-    color: "#174A97",
-  },
-  heroCtaFa: {
-    fontSize: 14,
-    lineHeight: 19,
-    color: "#2C659F",
-    fontWeight: "700",
-  },
-  heroCtaArrow: {
-    fontSize: 22,
-    color: "#1D5FD0",
-    fontWeight: "800",
   },
   statsGrid: {
     flexDirection: "row",
