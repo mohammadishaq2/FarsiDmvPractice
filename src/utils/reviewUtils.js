@@ -5,8 +5,7 @@ const APP_OPEN_COUNT_KEY = "appOpenCount";
 const COMPLETED_MOCK_TESTS_KEY = "completedMockTests";
 const ANSWERED_PRACTICE_QUESTIONS_KEY = "answeredPracticeQuestions";
 const CORRECT_PRACTICE_ANSWERS_KEY = "correctPracticeAnswers";
-const LAST_REVIEW_PROMPT_DATE_KEY = "lastReviewPromptDate";
-const NINETY_DAYS_MS = 90 * 24 * 60 * 60 * 1000;
+const REVIEW_REQUESTED_KEY = "reviewRequested";
 
 async function getNumber(key) {
   try {
@@ -26,21 +25,20 @@ async function setNumber(key, value) {
   }
 }
 
-async function hasAskedRecently() {
+async function hasAlreadyRequested() {
   try {
-    const raw = await AsyncStorage.getItem(LAST_REVIEW_PROMPT_DATE_KEY);
-    if (!raw) {
-      return false;
-    }
-
-    const lastTime = new Date(raw).getTime();
-    if (Number.isNaN(lastTime)) {
-      return false;
-    }
-
-    return Date.now() - lastTime < NINETY_DAYS_MS;
+    const raw = await AsyncStorage.getItem(REVIEW_REQUESTED_KEY);
+    return raw === "1";
   } catch {
     return false;
+  }
+}
+
+async function markReviewRequested() {
+  try {
+    await AsyncStorage.setItem(REVIEW_REQUESTED_KEY, "1");
+  } catch {
+    // ignore
   }
 }
 
@@ -89,26 +87,21 @@ export async function incrementPracticeAnswerStats(isCorrect) {
 
 export async function shouldRequestReview({ passed, source }) {
   try {
-    const appOpenCount = await getNumber(APP_OPEN_COUNT_KEY);
-    const completedMockTests = await getNumber(COMPLETED_MOCK_TESTS_KEY);
-    const answeredPracticeQuestions = await getNumber(
-      ANSWERED_PRACTICE_QUESTIONS_KEY,
-    );
-    const correctPracticeAnswers = await getNumber(
-      CORRECT_PRACTICE_ANSWERS_KEY,
-    );
-    const askedRecently = await hasAskedRecently();
-
-    if (askedRecently || appOpenCount < 3) {
+    const alreadyRequested = await hasAlreadyRequested();
+    if (alreadyRequested) {
       return false;
     }
 
     if (source === "mockTestPassed") {
+      const completedMockTests = await getNumber(COMPLETED_MOCK_TESTS_KEY);
       return Boolean(passed) && completedMockTests >= 1;
     }
 
     if (source === "practiceMilestone") {
-      return answeredPracticeQuestions >= 25 && correctPracticeAnswers >= 15;
+      const answeredPracticeQuestions = await getNumber(
+        ANSWERED_PRACTICE_QUESTIONS_KEY,
+      );
+      return answeredPracticeQuestions >= 10;
     }
 
     return false;
@@ -124,16 +117,24 @@ export async function requestAppReviewIfAppropriate({ passed, source }) {
       return false;
     }
 
+    await markReviewRequested();
+
     const isAvailable = await StoreReview.isAvailableAsync();
-    if (!isAvailable) {
-      return false;
+    if (isAvailable) {
+      await StoreReview.requestReview();
+    } else {
+      // Fallback for Expo Go / dev builds where StoreReview is unavailable
+      const { Alert } = await import("react-native");
+      Alert.alert(
+        "Enjoying the app? ⭐",
+        "If Farsi DMV Practice is helping you study, please take a moment to rate it on the App Store.",
+        [
+          { text: "Not Now", style: "cancel" },
+          { text: "Rate App", style: "default" },
+        ],
+      );
     }
 
-    await StoreReview.requestReview();
-    await AsyncStorage.setItem(
-      LAST_REVIEW_PROMPT_DATE_KEY,
-      new Date().toISOString(),
-    );
     return true;
   } catch {
     return false;

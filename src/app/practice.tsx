@@ -207,6 +207,7 @@ export default function PracticeScreen() {
     const isCorrect = Boolean(selected?.correct);
 
     await incrementPracticeAnswerStats(isCorrect);
+    await requestAppReviewIfAppropriate({ source: "practiceMilestone" });
 
     if (selected && !selected.correct) {
       await addWrongQuestion(currentQuestion.id);
@@ -232,12 +233,6 @@ export default function PracticeScreen() {
   };
 
   const goToNext = async () => {
-    if (isSubmitted) {
-      await requestAppReviewIfAppropriate({
-        source: "practiceMilestone",
-      });
-    }
-
     if (currentIndex >= totalQuestions - 1) {
       return;
     }
