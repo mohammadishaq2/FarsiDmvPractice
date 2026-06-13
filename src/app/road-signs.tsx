@@ -12,6 +12,7 @@ import {
 } from "react-native";
 
 import { AppHeader } from "../components/AppHeader";
+import { ImageAnswerOption } from "../components/ImageAnswerOption";
 import { ProgressBar } from "../components/ProgressBar";
 import { borderRadius, colors, shadows, spacing } from "../constants/theme";
 import { signImages } from "../utils/imageMap";
@@ -40,6 +41,8 @@ export default function RoadSignsScreen() {
   const correctAnswerId = currentQuestion?.answers.find(
     (answer) => answer.correct,
   )?.id;
+  const questionType = currentQuestion?.questionType ?? "textChoices";
+  const isImageChoicesQuestion = questionType === "imageChoices";
   const imageKey = extractImageKey(currentQuestion?.image ?? null);
   const mappedImage = imageKey ? signImages[imageKey] : undefined;
 
@@ -165,23 +168,53 @@ export default function RoadSignsScreen() {
           ) : null}
         </View>
 
-        <View style={styles.answersWrap}>
-          {currentQuestion.answers.map((answer) => (
-            <Pressable
-              key={answer.id}
-              style={({ pressed }) => [
-                styles.answerCard,
-                getAnswerStyle(answer.id),
-                pressed && !isSubmitted ? styles.pressed : null,
-              ]}
-              onPress={() => onSelectAnswer(answer.id)}
-            >
-              <Text style={styles.answerEn}>
-                {answer.id}. {answer.en}
-              </Text>
-              <Text style={styles.answerFa}>{answer.fa}</Text>
-            </Pressable>
-          ))}
+        <View
+          style={
+            isImageChoicesQuestion ? styles.imageAnswersWrap : styles.answersWrap
+          }
+        >
+          {currentQuestion.answers.map((answer) => {
+            if (isImageChoicesQuestion) {
+              const answerImageKey = extractImageKey(answer.image ?? null);
+              const answerImageSource = answerImageKey
+                ? signImages[answerImageKey]
+                : undefined;
+
+              return (
+                <ImageAnswerOption
+                  key={answer.id}
+                  imageSource={answerImageSource}
+                  enLabel={answer.en}
+                  faLabel={answer.fa}
+                  isSelected={selectedAnswerId === answer.id}
+                  isCorrect={Boolean(isSubmitted && answer.id === correctAnswerId)}
+                  isWrong={Boolean(
+                    isSubmitted &&
+                      selectedAnswerId === answer.id &&
+                      answer.id !== correctAnswerId,
+                  )}
+                  onPress={() => onSelectAnswer(answer.id)}
+                />
+              );
+            }
+
+            return (
+              <Pressable
+                key={answer.id}
+                style={({ pressed }) => [
+                  styles.answerCard,
+                  getAnswerStyle(answer.id),
+                  pressed && !isSubmitted ? styles.pressed : null,
+                ]}
+                onPress={() => onSelectAnswer(answer.id)}
+              >
+                <Text style={styles.answerEn}>
+                  {answer.id}. {answer.en}
+                </Text>
+                <Text style={styles.answerFa}>{answer.fa}</Text>
+              </Pressable>
+            );
+          })}
         </View>
 
         {isSubmitted ? (
@@ -308,6 +341,11 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   answersWrap: {
+    gap: 10,
+  },
+  imageAnswersWrap: {
+    flexDirection: "row",
+    flexWrap: "wrap",
     gap: 10,
   },
   answerCard: {

@@ -2,7 +2,8 @@
   "metadata": {
     "title": "California DMV Practice Questions - English/Farsi",
     "language": ["English", "Farsi"],
-    "questionCount": 300
+    "questionCount": 377,
+    "note": "Combined file checked. Questions 362-373 use questionType=imageChoices; questions without questionType should be treated as textChoices by the app."
   },
   "questions": [
     {
@@ -21,7 +22,7 @@
         },
         {
           "en": "Most drivers need a commercial Class A license.",
-          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس A نیاز دارند.",
+          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس ‎A‎ نیاز دارند.",
           "correct": false,
           "id": "B"
         },
@@ -83,7 +84,7 @@
       "id": 3,
       "category": "Driver License",
       "questionEn": "What is the correct rule about Class C licenses?",
-      "questionFa": "قانون درست درباره گواهینامه کلاس C چیست؟",
+      "questionFa": "قانون درست درباره گواهینامه کلاس ‎C‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -95,7 +96,7 @@
         },
         {
           "en": "Most people need a noncommercial Class C driver's license.",
-          "fa": "بیشتر افراد به گواهینامه کلاس C غیرتجاری نیاز دارند.",
+          "fa": "بیشتر افراد به گواهینامه کلاس ‎C‎ غیرتجاری نیاز دارند.",
           "correct": true,
           "id": "B"
         },
@@ -113,7 +114,7 @@
         }
       ],
       "explanationEn": "Most people need a noncommercial Class C driver's license.",
-      "explanationFa": "بیشتر افراد به گواهینامه کلاس C غیرتجاری نیاز دارند.",
+      "explanationFa": "بیشتر افراد به گواهینامه کلاس ‎C‎ غیرتجاری نیاز دارند.",
       "sourcePage": 1
     },
     {
@@ -971,19 +972,19 @@
       "id": 27,
       "category": "HOV Lanes",
       "questionEn": "What is the correct rule about HOV lane markings?",
-      "questionFa": "قانون درست درباره علامت خط HOV چیست؟",
+      "questionFa": "قانون درست درباره علامت خط ‎HOV‎ چیست؟",
       "image": "hov-diamond.png",
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "HOV lane markings mean parking is allowed.",
-          "fa": "علامت HOV یعنی پارک کردن مجاز است.",
+          "fa": "علامت ‎HOV‎ یعنی پارک کردن مجاز است.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "You should stop in an HOV lane to enter it safely.",
-          "fa": "برای ورود ایمن باید داخل خط HOV توقف کنید.",
+          "fa": "برای ورود ایمن باید داخل خط ‎HOV‎ توقف کنید.",
           "correct": false,
           "id": "B"
         },
@@ -995,32 +996,32 @@
         },
         {
           "en": "HOV lanes are marked with a diamond symbol and Carpool Lane wording.",
-          "fa": "خطوط HOV با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
+          "fa": "خطوط ‎HOV‎ با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "HOV lanes are marked with a diamond symbol and Carpool Lane wording.",
-      "explanationFa": "خطوط HOV با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
+      "explanationFa": "خطوط ‎HOV‎ با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
       "sourcePage": 8
     },
     {
       "id": 28,
       "category": "HOV Lanes",
       "questionEn": "What is the correct rule about entering HOV lanes?",
-      "questionFa": "قانون درست درباره ورود به خط HOV چیست؟",
+      "questionFa": "قانون درست درباره ورود به خط ‎HOV‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "HOV lanes are marked with a red curb only.",
-          "fa": "خطوط HOV فقط با جدول قرمز مشخص می‌شوند.",
+          "fa": "خطوط ‎HOV‎ فقط با جدول قرمز مشخص می‌شوند.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "Do not cross double solid lines to enter or exit an HOV lane.",
-          "fa": "برای ورود یا خروج از خط HOV از روی خطوط دوتایی ممتد عبور نکنید.",
+          "fa": "برای ورود یا خروج از خط ‎HOV‎ از روی خطوط دوتایی ممتد عبور نکنید.",
           "correct": true,
           "id": "B"
         },
@@ -1032,13 +1033,13 @@
         },
         {
           "en": "HOV lane markings mean parking is allowed.",
-          "fa": "علامت HOV یعنی پارک کردن مجاز است.",
+          "fa": "علامت ‎HOV‎ یعنی پارک کردن مجاز است.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "Do not cross double solid lines to enter or exit an HOV lane.",
-      "explanationFa": "برای ورود یا خروج از خط HOV از روی خطوط دوتایی ممتد عبور نکنید.",
+      "explanationFa": "برای ورود یا خروج از خط ‎HOV‎ از روی خطوط دوتایی ممتد عبور نکنید.",
       "sourcePage": 8
     },
     {
@@ -1285,7 +1286,7 @@
         },
         {
           "en": "You may turn right after a complete stop unless a NO TURN ON RED sign is posted.",
-          "fa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی NO TURN ON RED نصب شده باشد.",
+          "fa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی ‎NO TURN ON RED‎ نصب شده باشد.",
           "correct": true,
           "id": "C"
         },
@@ -1297,7 +1298,7 @@
         }
       ],
       "explanationEn": "You may turn right after a complete stop unless a NO TURN ON RED sign is posted.",
-      "explanationFa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی NO TURN ON RED نصب شده باشد.",
+      "explanationFa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی ‎NO TURN ON RED‎ نصب شده باشد.",
       "sourcePage": 11
     },
     {
@@ -1914,7 +1915,7 @@
         },
         {
           "en": "Ignore the officer if you are in an HOV lane.",
-          "fa": "اگر در خط HOV هستید افسر را نادیده بگیرید.",
+          "fa": "اگر در خط ‎HOV‎ هستید افسر را نادیده بگیرید.",
           "correct": false,
           "id": "C"
         },
@@ -2192,19 +2193,19 @@
       "id": 60,
       "category": "Pedestrian Signals",
       "questionEn": "What is the correct rule about WALK signals?",
-      "questionFa": "قانون درست درباره علامت WALK چیست؟",
+      "questionFa": "قانون درست درباره علامت ‎WALK‎ چیست؟",
       "image": "walk-signal.png",
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "A WALK or walking person signal means pedestrians may cross.",
-          "fa": "علامت WALK یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
+          "fa": "علامت ‎WALK‎ یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
           "correct": true,
           "id": "A"
         },
         {
           "en": "A flashing DON'T WALK means start crossing quickly.",
-          "fa": "علامت چشمک‌زن DON'T WALK یعنی سریع شروع به عبور کنید.",
+          "fa": "علامت چشمک‌زن ‎DON'T WALK‎ یعنی سریع شروع به عبور کنید.",
           "correct": false,
           "id": "B"
         },
@@ -2222,14 +2223,14 @@
         }
       ],
       "explanationEn": "A WALK or walking person signal means pedestrians may cross.",
-      "explanationFa": "علامت WALK یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
+      "explanationFa": "علامت ‎WALK‎ یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
       "sourcePage": 25
     },
     {
       "id": 61,
       "category": "Pedestrian Signals",
       "questionEn": "What is the correct rule about flashing DON'T WALK signals?",
-      "questionFa": "قانون درست درباره علامت چشمک‌زن DON'T WALK چیست؟",
+      "questionFa": "قانون درست درباره علامت چشمک‌زن ‎DON'T WALK‎ چیست؟",
       "image": "flashing-dont-walk.png",
       "imageSourceUrl": null,
       "answers": [
@@ -2241,7 +2242,7 @@
         },
         {
           "en": "A WALK signal means pedestrians may not cross.",
-          "fa": "علامت WALK یعنی عابران نباید عبور کنند.",
+          "fa": "علامت ‎WALK‎ یعنی عابران نباید عبور کنند.",
           "correct": false,
           "id": "B"
         },
@@ -2253,13 +2254,13 @@
         },
         {
           "en": "A flashing DON'T WALK means pedestrians should not start crossing.",
-          "fa": "علامت چشمک‌زن DON'T WALK یعنی عابران نباید شروع به عبور کنند.",
+          "fa": "علامت چشمک‌زن ‎DON'T WALK‎ یعنی عابران نباید شروع به عبور کنند.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "A flashing DON'T WALK means pedestrians should not start crossing.",
-      "explanationFa": "علامت چشمک‌زن DON'T WALK یعنی عابران نباید شروع به عبور کنند.",
+      "explanationFa": "علامت چشمک‌زن ‎DON'T WALK‎ یعنی عابران نباید شروع به عبور کنند.",
       "sourcePage": 25
     },
     {
@@ -2272,7 +2273,7 @@
       "answers": [
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "A"
         },
@@ -2309,7 +2310,7 @@
       "answers": [
         {
           "en": "A YIELD sign means slow down and be ready to stop.",
-          "fa": "تابلوی YIELD یعنی سرعت را کم کنید و آماده توقف باشید.",
+          "fa": "تابلوی ‎YIELD‎ یعنی سرعت را کم کنید و آماده توقف باشید.",
           "correct": true,
           "id": "A"
         },
@@ -2333,14 +2334,14 @@
         }
       ],
       "explanationEn": "A YIELD sign means slow down and be ready to stop.",
-      "explanationFa": "تابلوی YIELD یعنی سرعت را کم کنید و آماده توقف باشید.",
+      "explanationFa": "تابلوی ‎YIELD‎ یعنی سرعت را کم کنید و آماده توقف باشید.",
       "sourcePage": 26
     },
     {
       "id": 64,
       "category": "Road Signs",
       "questionEn": "What is the correct rule about DO NOT ENTER signs?",
-      "questionFa": "قانون درست درباره تابلوی DO NOT ENTER چیست؟",
+      "questionFa": "قانون درست درباره تابلوی ‎DO NOT ENTER‎ چیست؟",
       "image": "do-not-enter.png",
       "imageSourceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/ca-sign-chart-2014-rev3-a11y.pdf",
       "answers": [
@@ -2352,7 +2353,7 @@
         },
         {
           "en": "A DO NOT ENTER sign tells you not to enter the road or ramp.",
-          "fa": "تابلوی DO NOT ENTER یعنی وارد جاده یا رمپ نشوید.",
+          "fa": "تابلوی ‎DO NOT ENTER‎ یعنی وارد جاده یا رمپ نشوید.",
           "correct": true,
           "id": "B"
         },
@@ -2364,20 +2365,20 @@
         },
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "A DO NOT ENTER sign tells you not to enter the road or ramp.",
-      "explanationFa": "تابلوی DO NOT ENTER یعنی وارد جاده یا رمپ نشوید.",
+      "explanationFa": "تابلوی ‎DO NOT ENTER‎ یعنی وارد جاده یا رمپ نشوید.",
       "sourcePage": 26
     },
     {
       "id": 65,
       "category": "Road Signs",
       "questionEn": "What is the correct rule about WRONG WAY signs?",
-      "questionFa": "قانون درست درباره تابلوی WRONG WAY چیست؟",
+      "questionFa": "قانون درست درباره تابلوی ‎WRONG WAY‎ چیست؟",
       "image": "wrong-way.png",
       "imageSourceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/ca-sign-chart-2014-rev3-a11y.pdf",
       "answers": [
@@ -2389,7 +2390,7 @@
         },
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "B"
         },
@@ -2401,13 +2402,13 @@
         },
         {
           "en": "If you see WRONG WAY, turn around or back out when safe.",
-          "fa": "اگر تابلوی WRONG WAY دیدید، وقتی ایمن است برگردید یا عقب بروید.",
+          "fa": "اگر تابلوی ‎WRONG WAY‎ دیدید، وقتی ایمن است برگردید یا عقب بروید.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "If you see WRONG WAY, turn around or back out when safe.",
-      "explanationFa": "اگر تابلوی WRONG WAY دیدید، وقتی ایمن است برگردید یا عقب بروید.",
+      "explanationFa": "اگر تابلوی ‎WRONG WAY‎ دیدید، وقتی ایمن است برگردید یا عقب بروید.",
       "sourcePage": 26
     },
     {
@@ -2463,7 +2464,7 @@
         },
         {
           "en": "WRONG WAY means continue if the road looks clear.",
-          "fa": "WRONG WAY یعنی اگر جاده خلوت است ادامه دهید.",
+          "fa": "‎WRONG WAY‎ یعنی اگر جاده خلوت است ادامه دهید.",
           "correct": false,
           "id": "B"
         },
@@ -2512,7 +2513,7 @@
         },
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "D"
         }
@@ -2574,7 +2575,7 @@
         },
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "B"
         },
@@ -2605,7 +2606,7 @@
       "answers": [
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "A"
         },
@@ -2673,7 +2674,7 @@
       "id": 73,
       "category": "Intersections",
       "questionEn": "What is the correct rule about T intersections?",
-      "questionFa": "قانون درست درباره تقاطع T چیست؟",
+      "questionFa": "قانون درست درباره تقاطع ‎T‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -2685,13 +2686,13 @@
         },
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "At a T intersection without signs, traffic on the through road has the right-of-way.",
-          "fa": "در تقاطع T بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎ بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
           "correct": true,
           "id": "C"
         },
@@ -2703,7 +2704,7 @@
         }
       ],
       "explanationEn": "At a T intersection without signs, traffic on the through road has the right-of-way.",
-      "explanationFa": "در تقاطع T بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
+      "explanationFa": "در تقاطع ‎T‎ بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
       "sourcePage": 30
     },
     {
@@ -2722,7 +2723,7 @@
         },
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "B"
         },
@@ -2907,7 +2908,7 @@
         },
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "B"
         },
@@ -4560,19 +4561,19 @@
       "id": 124,
       "category": "Alcohol and Drugs",
       "questionEn": "What is the correct rule about DUI laws?",
-      "questionFa": "قانون درست درباره قوانین DUI چیست؟",
+      "questionFa": "قانون درست درباره قوانین ‎DUI‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "DUI laws apply to alcohol and any drug that affects safe driving.",
-          "fa": "قوانین DUI برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
+          "fa": "قوانین ‎DUI‎ برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
           "correct": true,
           "id": "A"
         },
         {
           "en": "Refusing a required DUI test has no consequence.",
-          "fa": "خودداری از آزمایش لازم DUI هیچ پیامدی ندارد.",
+          "fa": "خودداری از آزمایش لازم ‎DUI‎ هیچ پیامدی ندارد.",
           "correct": false,
           "id": "B"
         },
@@ -4584,13 +4585,13 @@
         },
         {
           "en": "DUI laws apply only to alcohol, not drugs.",
-          "fa": "قوانین DUI فقط برای الکل است، نه دارو یا مواد.",
+          "fa": "قوانین ‎DUI‎ فقط برای الکل است، نه دارو یا مواد.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "DUI laws apply to alcohol and any drug that affects safe driving.",
-      "explanationFa": "قوانین DUI برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
+      "explanationFa": "قوانین ‎DUI‎ برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
       "sourcePage": 55
     },
     {
@@ -4615,7 +4616,7 @@
         },
         {
           "en": "Refusing a required DUI test has no consequence.",
-          "fa": "خودداری از آزمایش لازم DUI هیچ پیامدی ندارد.",
+          "fa": "خودداری از آزمایش لازم ‎DUI‎ هیچ پیامدی ندارد.",
           "correct": false,
           "id": "C"
         },
@@ -4640,7 +4641,7 @@
       "answers": [
         {
           "en": "DUI laws apply only to alcohol, not drugs.",
-          "fa": "قوانین DUI فقط برای الکل است، نه دارو یا مواد.",
+          "fa": "قوانین ‎DUI‎ فقط برای الکل است، نه دارو یا مواد.",
           "correct": false,
           "id": "A"
         },
@@ -4671,13 +4672,13 @@
       "id": 127,
       "category": "BAC Limits",
       "questionEn": "What is the correct rule about BAC over 21?",
-      "questionFa": "قانون درست درباره BAC برای بالای ۲۱ سال چیست؟",
+      "questionFa": "قانون درست درباره ‎BAC‎ برای بالای ۲۱ سال چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "For drivers over 21, a BAC of 0.08% or higher is illegal.",
-          "fa": "برای رانندگان بالای ۲۱ سال، BAC برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ‎BAC‎ برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
           "correct": true,
           "id": "A"
         },
@@ -4689,26 +4690,26 @@
         },
         {
           "en": "BAC measures tire pressure.",
-          "fa": "BAC فشار لاستیک را اندازه می‌گیرد.",
+          "fa": "‎BAC‎ فشار لاستیک را اندازه می‌گیرد.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "For drivers under 21, BAC rules do not apply.",
-          "fa": "برای رانندگان زیر ۲۱ سال، قوانین BAC اعمال نمی‌شود.",
+          "fa": "برای رانندگان زیر ۲۱ سال، قوانین ‎BAC‎ اعمال نمی‌شود.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "For drivers over 21, a BAC of 0.08% or higher is illegal.",
-      "explanationFa": "برای رانندگان بالای ۲۱ سال، BAC برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
+      "explanationFa": "برای رانندگان بالای ۲۱ سال، ‎BAC‎ برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
       "sourcePage": 56
     },
     {
       "id": 128,
       "category": "BAC Limits",
       "questionEn": "What is the correct rule about BAC under 21?",
-      "questionFa": "قانون درست درباره BAC برای زیر ۲۱ سال چیست؟",
+      "questionFa": "قانون درست درباره ‎BAC‎ برای زیر ۲۱ سال چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -4720,32 +4721,32 @@
         },
         {
           "en": "For drivers under 21, a BAC of 0.01% or higher is illegal.",
-          "fa": "برای رانندگان زیر ۲۱ سال، BAC برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
+          "fa": "برای رانندگان زیر ۲۱ سال، ‎BAC‎ برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
           "correct": true,
           "id": "B"
         },
         {
           "en": "BAC increases less risk for older drivers.",
-          "fa": "BAC برای رانندگان مسن‌تر خطر را کمتر می‌کند.",
+          "fa": "‎BAC‎ برای رانندگان مسن‌تر خطر را کمتر می‌کند.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "For drivers under 21, BAC rules do not apply.",
-          "fa": "برای رانندگان زیر ۲۱ سال، قوانین BAC اعمال نمی‌شود.",
+          "fa": "برای رانندگان زیر ۲۱ سال، قوانین ‎BAC‎ اعمال نمی‌شود.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "For drivers under 21, a BAC of 0.01% or higher is illegal.",
-      "explanationFa": "برای رانندگان زیر ۲۱ سال، BAC برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
+      "explanationFa": "برای رانندگان زیر ۲۱ سال، ‎BAC‎ برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
       "sourcePage": 56
     },
     {
       "id": 129,
       "category": "BAC Limits",
       "questionEn": "What is the correct rule about commercial driver BAC?",
-      "questionFa": "قانون درست درباره BAC راننده تجاری چیست؟",
+      "questionFa": "قانون درست درباره ‎BAC‎ راننده تجاری چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -4757,32 +4758,32 @@
         },
         {
           "en": "For drivers over 21, BAC of 0.20% is the first illegal level.",
-          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی BAC است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی ‎BAC‎ است.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "For commercial drivers, a BAC of 0.04% or higher is illegal.",
-          "fa": "برای رانندگان تجاری، BAC برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
+          "fa": "برای رانندگان تجاری، ‎BAC‎ برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
           "correct": true,
           "id": "C"
         },
         {
           "en": "For drivers under 21, BAC rules do not apply.",
-          "fa": "برای رانندگان زیر ۲۱ سال، قوانین BAC اعمال نمی‌شود.",
+          "fa": "برای رانندگان زیر ۲۱ سال، قوانین ‎BAC‎ اعمال نمی‌شود.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "For commercial drivers, a BAC of 0.04% or higher is illegal.",
-      "explanationFa": "برای رانندگان تجاری، BAC برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
+      "explanationFa": "برای رانندگان تجاری، ‎BAC‎ برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
       "sourcePage": 56
     },
     {
       "id": 130,
       "category": "DUI Arrests",
       "questionEn": "What is the correct rule about DUI testing?",
-      "questionFa": "قانون درست درباره آزمایش DUI چیست؟",
+      "questionFa": "قانون درست درباره آزمایش ‎DUI‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -4806,57 +4807,57 @@
         },
         {
           "en": "By driving in California, you consent to a breath, blood, or urine test if suspected of DUI.",
-          "fa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به DUI با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
+          "fa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به ‎DUI‎ با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "By driving in California, you consent to a breath, blood, or urine test if suspected of DUI.",
-      "explanationFa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به DUI با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
+      "explanationFa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به ‎DUI‎ با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
       "sourcePage": 57
     },
     {
       "id": 131,
       "category": "DUI Convictions",
       "questionEn": "What is the correct rule about DUI penalties?",
-      "questionFa": "قانون درست درباره مجازات DUI چیست؟",
+      "questionFa": "قانون درست درباره مجازات ‎DUI‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "BAC measures tire pressure.",
-          "fa": "BAC فشار لاستیک را اندازه می‌گیرد.",
+          "fa": "‎BAC‎ فشار لاستیک را اندازه می‌گیرد.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "For drivers under 21, BAC rules do not apply.",
-          "fa": "برای رانندگان زیر ۲۱ سال، قوانین BAC اعمال نمی‌شود.",
+          "fa": "برای رانندگان زیر ۲۱ سال، قوانین ‎BAC‎ اعمال نمی‌شود.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "For drivers over 21, BAC of 0.20% is the first illegal level.",
-          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی BAC است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی ‎BAC‎ است.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "A DUI conviction can suspend or revoke your driving privilege for one year.",
-          "fa": "محکومیت DUI می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
+          "fa": "محکومیت ‎DUI‎ می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "A DUI conviction can suspend or revoke your driving privilege for one year.",
-      "explanationFa": "محکومیت DUI می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
+      "explanationFa": "محکومیت ‎DUI‎ می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
       "sourcePage": 57
     },
     {
       "id": 132,
       "category": "DUI Convictions",
       "questionEn": "What is the correct rule about DUI record?",
-      "questionFa": "قانون درست درباره سابقه DUI چیست؟",
+      "questionFa": "قانون درست درباره سابقه ‎DUI‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -4868,13 +4869,13 @@
         },
         {
           "en": "DUI convictions remain on your driver record for 10 years.",
-          "fa": "محکومیت‌های DUI به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
+          "fa": "محکومیت‌های ‎DUI‎ به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
           "correct": true,
           "id": "B"
         },
         {
           "en": "For drivers over 21, BAC of 0.20% is the first illegal level.",
-          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی BAC است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی ‎BAC‎ است.",
           "correct": false,
           "id": "C"
         },
@@ -4886,7 +4887,7 @@
         }
       ],
       "explanationEn": "DUI convictions remain on your driver record for 10 years.",
-      "explanationFa": "محکومیت‌های DUI به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
+      "explanationFa": "محکومیت‌های ‎DUI‎ به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
       "sourcePage": 57
     },
     {
@@ -4905,7 +4906,7 @@
         },
         {
           "en": "Refusing a required DUI test has no consequence.",
-          "fa": "خودداری از آزمایش لازم DUI هیچ پیامدی ندارد.",
+          "fa": "خودداری از آزمایش لازم ‎DUI‎ هیچ پیامدی ندارد.",
           "correct": false,
           "id": "B"
         },
@@ -4936,7 +4937,7 @@
       "answers": [
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "A"
         },
@@ -5028,7 +5029,7 @@
         },
         {
           "en": "DMV collision reports are filed by police for you automatically.",
-          "fa": "پلیس به صورت خودکار گزارش DMV را برای شما ثبت می‌کند.",
+          "fa": "پلیس به صورت خودکار گزارش ‎DMV‎ را برای شما ثبت می‌کند.",
           "correct": false,
           "id": "D"
         }
@@ -5047,7 +5048,7 @@
       "answers": [
         {
           "en": "DMV collision reports are filed by police for you automatically.",
-          "fa": "پلیس به صورت خودکار گزارش DMV را برای شما ثبت می‌کند.",
+          "fa": "پلیس به صورت خودکار گزارش ‎DMV‎ را برای شما ثبت می‌کند.",
           "correct": false,
           "id": "A"
         },
@@ -5059,7 +5060,7 @@
         },
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "C"
         },
@@ -5133,7 +5134,7 @@
         },
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "C"
         },
@@ -5195,7 +5196,7 @@
       "answers": [
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "A"
         },
@@ -5226,13 +5227,13 @@
       "id": 142,
       "category": "DMV Collision Reporting",
       "questionEn": "What is the correct rule about collision reports to DMV?",
-      "questionFa": "قانون درست درباره گزارش تصادف به DMV چیست؟",
+      "questionFa": "قانون درست درباره گزارش تصادف به ‎DMV‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Report to DMV within 10 days if damage is over $1,000 or anyone is injured or killed.",
-          "fa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به DMV گزارش دهید.",
+          "fa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به ‎DMV‎ گزارش دهید.",
           "correct": true,
           "id": "A"
         },
@@ -5256,20 +5257,20 @@
         }
       ],
       "explanationEn": "Report to DMV within 10 days if damage is over $1,000 or anyone is injured or killed.",
-      "explanationFa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به DMV گزارش دهید.",
+      "explanationFa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به ‎DMV‎ گزارش دهید.",
       "sourcePage": 59
     },
     {
       "id": 143,
       "category": "DMV Collision Reporting",
       "questionEn": "What is the correct rule about SR 1 report?",
-      "questionFa": "قانون درست درباره فرم SR 1 چیست؟",
+      "questionFa": "قانون درست درباره فرم ‎SR 1‎ چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "A"
         },
@@ -5281,7 +5282,7 @@
         },
         {
           "en": "Each driver must file an SR 1 report when required, whether or not they caused the collision.",
-          "fa": "هر راننده هنگام نیاز باید فرم SR 1 را ثبت کند، چه مقصر بوده باشد چه نه.",
+          "fa": "هر راننده هنگام نیاز باید فرم ‎SR 1‎ را ثبت کند، چه مقصر بوده باشد چه نه.",
           "correct": true,
           "id": "C"
         },
@@ -5293,7 +5294,7 @@
         }
       ],
       "explanationEn": "Each driver must file an SR 1 report when required, whether or not they caused the collision.",
-      "explanationFa": "هر راننده هنگام نیاز باید فرم SR 1 را ثبت کند، چه مقصر بوده باشد چه نه.",
+      "explanationFa": "هر راننده هنگام نیاز باید فرم ‎SR 1‎ را ثبت کند، چه مقصر بوده باشد چه نه.",
       "sourcePage": 59
     },
     {
@@ -5312,7 +5313,7 @@
         },
         {
           "en": "DMV adds qualifying collisions to your driver record regardless of who caused them.",
-          "fa": "DMV تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
+          "fa": "‎DMV‎ تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
           "correct": true,
           "id": "B"
         },
@@ -5330,7 +5331,7 @@
         }
       ],
       "explanationEn": "DMV adds qualifying collisions to your driver record regardless of who caused them.",
-      "explanationFa": "DMV تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
+      "explanationFa": "‎DMV‎ تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
       "sourcePage": 60
     },
     {
@@ -5435,7 +5436,7 @@
         },
         {
           "en": "Most drivers need a commercial Class A license.",
-          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس A نیاز دارند.",
+          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس ‎A‎ نیاز دارند.",
           "correct": false,
           "id": "D"
         }
@@ -5485,13 +5486,13 @@
       "id": 149,
       "category": "Driver License",
       "questionEn": "Which statement is true about Class C licenses?",
-      "questionFa": "کدام جمله درباره گواهینامه کلاس C درست است؟",
+      "questionFa": "کدام جمله درباره گواهینامه کلاس ‎C‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Most people need a noncommercial Class C driver's license.",
-          "fa": "بیشتر افراد به گواهینامه کلاس C غیرتجاری نیاز دارند.",
+          "fa": "بیشتر افراد به گواهینامه کلاس ‎C‎ غیرتجاری نیاز دارند.",
           "correct": true,
           "id": "A"
         },
@@ -5515,7 +5516,7 @@
         }
       ],
       "explanationEn": "Most people need a noncommercial Class C driver's license.",
-      "explanationFa": "بیشتر افراد به گواهینامه کلاس C غیرتجاری نیاز دارند.",
+      "explanationFa": "بیشتر افراد به گواهینامه کلاس ‎C‎ غیرتجاری نیاز دارند.",
       "sourcePage": 1
     },
     {
@@ -6373,19 +6374,19 @@
       "id": 173,
       "category": "HOV Lanes",
       "questionEn": "Which statement is true about HOV lane markings?",
-      "questionFa": "کدام جمله درباره علامت خط HOV درست است؟",
+      "questionFa": "کدام جمله درباره علامت خط ‎HOV‎ درست است؟",
       "image": "hov-diamond.png",
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "You should stop in an HOV lane to enter it safely.",
-          "fa": "برای ورود ایمن باید داخل خط HOV توقف کنید.",
+          "fa": "برای ورود ایمن باید داخل خط ‎HOV‎ توقف کنید.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "HOV lanes are marked with a red curb only.",
-          "fa": "خطوط HOV فقط با جدول قرمز مشخص می‌شوند.",
+          "fa": "خطوط ‎HOV‎ فقط با جدول قرمز مشخص می‌شوند.",
           "correct": false,
           "id": "B"
         },
@@ -6397,26 +6398,26 @@
         },
         {
           "en": "HOV lanes are marked with a diamond symbol and Carpool Lane wording.",
-          "fa": "خطوط HOV با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
+          "fa": "خطوط ‎HOV‎ با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "HOV lanes are marked with a diamond symbol and Carpool Lane wording.",
-      "explanationFa": "خطوط HOV با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
+      "explanationFa": "خطوط ‎HOV‎ با علامت لوزی و عبارت Carpool Lane مشخص می‌شوند.",
       "sourcePage": 8
     },
     {
       "id": 174,
       "category": "HOV Lanes",
       "questionEn": "Which statement is true about entering HOV lanes?",
-      "questionFa": "کدام جمله درباره ورود به خط HOV درست است؟",
+      "questionFa": "کدام جمله درباره ورود به خط ‎HOV‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Do not cross double solid lines to enter or exit an HOV lane.",
-          "fa": "برای ورود یا خروج از خط HOV از روی خطوط دوتایی ممتد عبور نکنید.",
+          "fa": "برای ورود یا خروج از خط ‎HOV‎ از روی خطوط دوتایی ممتد عبور نکنید.",
           "correct": true,
           "id": "A"
         },
@@ -6428,19 +6429,19 @@
         },
         {
           "en": "HOV lanes are marked with a red curb only.",
-          "fa": "خطوط HOV فقط با جدول قرمز مشخص می‌شوند.",
+          "fa": "خطوط ‎HOV‎ فقط با جدول قرمز مشخص می‌شوند.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "Any driver may use an HOV lane at any time regardless of signs.",
-          "fa": "هر راننده‌ای همیشه بدون توجه به تابلوها می‌تواند از خط HOV استفاده کند.",
+          "fa": "هر راننده‌ای همیشه بدون توجه به تابلوها می‌تواند از خط ‎HOV‎ استفاده کند.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "Do not cross double solid lines to enter or exit an HOV lane.",
-      "explanationFa": "برای ورود یا خروج از خط HOV از روی خطوط دوتایی ممتد عبور نکنید.",
+      "explanationFa": "برای ورود یا خروج از خط ‎HOV‎ از روی خطوط دوتایی ممتد عبور نکنید.",
       "sourcePage": 8
     },
     {
@@ -6687,7 +6688,7 @@
         },
         {
           "en": "You may turn right after a complete stop unless a NO TURN ON RED sign is posted.",
-          "fa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی NO TURN ON RED نصب شده باشد.",
+          "fa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی ‎NO TURN ON RED‎ نصب شده باشد.",
           "correct": true,
           "id": "C"
         },
@@ -6699,7 +6700,7 @@
         }
       ],
       "explanationEn": "You may turn right after a complete stop unless a NO TURN ON RED sign is posted.",
-      "explanationFa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی NO TURN ON RED نصب شده باشد.",
+      "explanationFa": "بعد از توقف کامل می‌توانید به راست بپیچید مگر تابلوی ‎NO TURN ON RED‎ نصب شده باشد.",
       "sourcePage": 11
     },
     {
@@ -7316,7 +7317,7 @@
         },
         {
           "en": "Ignore the officer if you are in an HOV lane.",
-          "fa": "اگر در خط HOV هستید افسر را نادیده بگیرید.",
+          "fa": "اگر در خط ‎HOV‎ هستید افسر را نادیده بگیرید.",
           "correct": false,
           "id": "C"
         },
@@ -7594,13 +7595,13 @@
       "id": 206,
       "category": "Pedestrian Signals",
       "questionEn": "Which statement is true about WALK signals?",
-      "questionFa": "کدام جمله درباره علامت WALK درست است؟",
+      "questionFa": "کدام جمله درباره علامت ‎WALK‎ درست است؟",
       "image": "walk-signal.png",
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "A WALK or walking person signal means pedestrians may cross.",
-          "fa": "علامت WALK یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
+          "fa": "علامت ‎WALK‎ یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
           "correct": true,
           "id": "A"
         },
@@ -7612,32 +7613,32 @@
         },
         {
           "en": "A flashing DON'T WALK means start crossing quickly.",
-          "fa": "علامت چشمک‌زن DON'T WALK یعنی سریع شروع به عبور کنید.",
+          "fa": "علامت چشمک‌زن ‎DON'T WALK‎ یعنی سریع شروع به عبور کنید.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "A WALK signal means pedestrians may not cross.",
-          "fa": "علامت WALK یعنی عابران نباید عبور کنند.",
+          "fa": "علامت ‎WALK‎ یعنی عابران نباید عبور کنند.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "A WALK or walking person signal means pedestrians may cross.",
-      "explanationFa": "علامت WALK یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
+      "explanationFa": "علامت ‎WALK‎ یا فرد در حال راه رفتن یعنی عابران می‌توانند عبور کنند.",
       "sourcePage": 25
     },
     {
       "id": 207,
       "category": "Pedestrian Signals",
       "questionEn": "Which statement is true about flashing DON'T WALK signals?",
-      "questionFa": "کدام جمله درباره علامت چشمک‌زن DON'T WALK درست است؟",
+      "questionFa": "کدام جمله درباره علامت چشمک‌زن ‎DON'T WALK‎ درست است؟",
       "image": "flashing-dont-walk.png",
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "A flashing DON'T WALK means pedestrians should not start crossing.",
-          "fa": "علامت چشمک‌زن DON'T WALK یعنی عابران نباید شروع به عبور کنند.",
+          "fa": "علامت چشمک‌زن ‎DON'T WALK‎ یعنی عابران نباید شروع به عبور کنند.",
           "correct": true,
           "id": "A"
         },
@@ -7655,13 +7656,13 @@
         },
         {
           "en": "A WALK signal means pedestrians may not cross.",
-          "fa": "علامت WALK یعنی عابران نباید عبور کنند.",
+          "fa": "علامت ‎WALK‎ یعنی عابران نباید عبور کنند.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "A flashing DON'T WALK means pedestrians should not start crossing.",
-      "explanationFa": "علامت چشمک‌زن DON'T WALK یعنی عابران نباید شروع به عبور کنند.",
+      "explanationFa": "علامت چشمک‌زن ‎DON'T WALK‎ یعنی عابران نباید شروع به عبور کنند.",
       "sourcePage": 25
     },
     {
@@ -7674,7 +7675,7 @@
       "answers": [
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "A"
         },
@@ -7711,7 +7712,7 @@
       "answers": [
         {
           "en": "A YIELD sign means slow down and be ready to stop.",
-          "fa": "تابلوی YIELD یعنی سرعت را کم کنید و آماده توقف باشید.",
+          "fa": "تابلوی ‎YIELD‎ یعنی سرعت را کم کنید و آماده توقف باشید.",
           "correct": true,
           "id": "A"
         },
@@ -7729,20 +7730,20 @@
         },
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "A YIELD sign means slow down and be ready to stop.",
-      "explanationFa": "تابلوی YIELD یعنی سرعت را کم کنید و آماده توقف باشید.",
+      "explanationFa": "تابلوی ‎YIELD‎ یعنی سرعت را کم کنید و آماده توقف باشید.",
       "sourcePage": 26
     },
     {
       "id": 210,
       "category": "Road Signs",
       "questionEn": "Which statement is true about DO NOT ENTER signs?",
-      "questionFa": "کدام جمله درباره تابلوی DO NOT ENTER درست است؟",
+      "questionFa": "کدام جمله درباره تابلوی ‎DO NOT ENTER‎ درست است؟",
       "image": "do-not-enter.png",
       "imageSourceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/ca-sign-chart-2014-rev3-a11y.pdf",
       "answers": [
@@ -7766,20 +7767,20 @@
         },
         {
           "en": "A DO NOT ENTER sign tells you not to enter the road or ramp.",
-          "fa": "تابلوی DO NOT ENTER یعنی وارد جاده یا رمپ نشوید.",
+          "fa": "تابلوی ‎DO NOT ENTER‎ یعنی وارد جاده یا رمپ نشوید.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "A DO NOT ENTER sign tells you not to enter the road or ramp.",
-      "explanationFa": "تابلوی DO NOT ENTER یعنی وارد جاده یا رمپ نشوید.",
+      "explanationFa": "تابلوی ‎DO NOT ENTER‎ یعنی وارد جاده یا رمپ نشوید.",
       "sourcePage": 26
     },
     {
       "id": 211,
       "category": "Road Signs",
       "questionEn": "Which statement is true about WRONG WAY signs?",
-      "questionFa": "کدام جمله درباره تابلوی WRONG WAY درست است؟",
+      "questionFa": "کدام جمله درباره تابلوی ‎WRONG WAY‎ درست است؟",
       "image": "wrong-way.png",
       "imageSourceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/ca-sign-chart-2014-rev3-a11y.pdf",
       "answers": [
@@ -7791,25 +7792,25 @@
         },
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "WRONG WAY means continue if the road looks clear.",
-          "fa": "WRONG WAY یعنی اگر جاده خلوت است ادامه دهید.",
+          "fa": "‎WRONG WAY‎ یعنی اگر جاده خلوت است ادامه دهید.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "If you see WRONG WAY, turn around or back out when safe.",
-          "fa": "اگر تابلوی WRONG WAY دیدید، وقتی ایمن است برگردید یا عقب بروید.",
+          "fa": "اگر تابلوی ‎WRONG WAY‎ دیدید، وقتی ایمن است برگردید یا عقب بروید.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "If you see WRONG WAY, turn around or back out when safe.",
-      "explanationFa": "اگر تابلوی WRONG WAY دیدید، وقتی ایمن است برگردید یا عقب بروید.",
+      "explanationFa": "اگر تابلوی ‎WRONG WAY‎ دیدید، وقتی ایمن است برگردید یا عقب بروید.",
       "sourcePage": 26
     },
     {
@@ -7828,7 +7829,7 @@
         },
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "B"
         },
@@ -7840,7 +7841,7 @@
         },
         {
           "en": "WRONG WAY means continue if the road looks clear.",
-          "fa": "WRONG WAY یعنی اگر جاده خلوت است ادامه دهید.",
+          "fa": "‎WRONG WAY‎ یعنی اگر جاده خلوت است ادامه دهید.",
           "correct": false,
           "id": "D"
         }
@@ -7865,7 +7866,7 @@
         },
         {
           "en": "WRONG WAY means continue if the road looks clear.",
-          "fa": "WRONG WAY یعنی اگر جاده خلوت است ادامه دهید.",
+          "fa": "‎WRONG WAY‎ یعنی اگر جاده خلوت است ادامه دهید.",
           "correct": false,
           "id": "B"
         },
@@ -7902,7 +7903,7 @@
         },
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "B"
         },
@@ -7933,7 +7934,7 @@
       "answers": [
         {
           "en": "DO NOT ENTER means enter only at night.",
-          "fa": "DO NOT ENTER یعنی فقط شب‌ها وارد شوید.",
+          "fa": "‎DO NOT ENTER‎ یعنی فقط شب‌ها وارد شوید.",
           "correct": false,
           "id": "A"
         },
@@ -7988,7 +7989,7 @@
         },
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "D"
         }
@@ -8050,7 +8051,7 @@
         },
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "B"
         },
@@ -8075,19 +8076,19 @@
       "id": 219,
       "category": "Intersections",
       "questionEn": "Which statement is true about T intersections?",
-      "questionFa": "کدام جمله درباره تقاطع T درست است؟",
+      "questionFa": "کدام جمله درباره تقاطع ‎T‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "At a T intersection without signs, traffic on the through road has the right-of-way.",
-          "fa": "در تقاطع T بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎ بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
           "correct": true,
           "id": "B"
         },
@@ -8105,7 +8106,7 @@
         }
       ],
       "explanationEn": "At a T intersection without signs, traffic on the through road has the right-of-way.",
-      "explanationFa": "در تقاطع T بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
+      "explanationFa": "در تقاطع ‎T‎ بدون تابلو، ترافیک مسیر اصلی حق تقدم دارد.",
       "sourcePage": 30
     },
     {
@@ -8315,7 +8316,7 @@
         },
         {
           "en": "At a T intersection, traffic on the ending road always has right-of-way.",
-          "fa": "در تقاطع T، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
+          "fa": "در تقاطع ‎T‎، ترافیک مسیر فرعی همیشه حق تقدم دارد.",
           "correct": false,
           "id": "C"
         },
@@ -9962,19 +9963,19 @@
       "id": 270,
       "category": "Alcohol and Drugs",
       "questionEn": "Which statement is true about DUI laws?",
-      "questionFa": "کدام جمله درباره قوانین DUI درست است؟",
+      "questionFa": "کدام جمله درباره قوانین ‎DUI‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "DUI laws apply only to alcohol, not drugs.",
-          "fa": "قوانین DUI فقط برای الکل است، نه دارو یا مواد.",
+          "fa": "قوانین ‎DUI‎ فقط برای الکل است، نه دارو یا مواد.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "Refusing a required DUI test has no consequence.",
-          "fa": "خودداری از آزمایش لازم DUI هیچ پیامدی ندارد.",
+          "fa": "خودداری از آزمایش لازم ‎DUI‎ هیچ پیامدی ندارد.",
           "correct": false,
           "id": "B"
         },
@@ -9986,13 +9987,13 @@
         },
         {
           "en": "DUI laws apply to alcohol and any drug that affects safe driving.",
-          "fa": "قوانین DUI برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
+          "fa": "قوانین ‎DUI‎ برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "DUI laws apply to alcohol and any drug that affects safe driving.",
-      "explanationFa": "قوانین DUI برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
+      "explanationFa": "قوانین ‎DUI‎ برای الکل و هر دارویی/ماده‌ای که رانندگی ایمن را مختل کند اعمال می‌شود.",
       "sourcePage": 55
     },
     {
@@ -10005,7 +10006,7 @@
       "answers": [
         {
           "en": "DUI laws apply only to alcohol, not drugs.",
-          "fa": "قوانین DUI فقط برای الکل است، نه دارو یا مواد.",
+          "fa": "قوانین ‎DUI‎ فقط برای الکل است، نه دارو یا مواد.",
           "correct": false,
           "id": "A"
         },
@@ -10054,7 +10055,7 @@
         },
         {
           "en": "DUI laws apply only to alcohol, not drugs.",
-          "fa": "قوانین DUI فقط برای الکل است، نه دارو یا مواد.",
+          "fa": "قوانین ‎DUI‎ فقط برای الکل است، نه دارو یا مواد.",
           "correct": false,
           "id": "C"
         },
@@ -10073,44 +10074,44 @@
       "id": 273,
       "category": "BAC Limits",
       "questionEn": "Which statement is true about BAC over 21?",
-      "questionFa": "کدام جمله درباره BAC برای بالای ۲۱ سال درست است؟",
+      "questionFa": "کدام جمله درباره ‎BAC‎ برای بالای ۲۱ سال درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "For drivers over 21, BAC of 0.20% is the first illegal level.",
-          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی BAC است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی ‎BAC‎ است.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "For drivers over 21, a BAC of 0.08% or higher is illegal.",
-          "fa": "برای رانندگان بالای ۲۱ سال، BAC برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ‎BAC‎ برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
           "correct": true,
           "id": "B"
         },
         {
           "en": "BAC measures tire pressure.",
-          "fa": "BAC فشار لاستیک را اندازه می‌گیرد.",
+          "fa": "‎BAC‎ فشار لاستیک را اندازه می‌گیرد.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "For drivers under 21, BAC rules do not apply.",
-          "fa": "برای رانندگان زیر ۲۱ سال، قوانین BAC اعمال نمی‌شود.",
+          "fa": "برای رانندگان زیر ۲۱ سال، قوانین ‎BAC‎ اعمال نمی‌شود.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "For drivers over 21, a BAC of 0.08% or higher is illegal.",
-      "explanationFa": "برای رانندگان بالای ۲۱ سال، BAC برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
+      "explanationFa": "برای رانندگان بالای ۲۱ سال، ‎BAC‎ برابر ۰٫۰۸٪ یا بیشتر غیرقانونی است.",
       "sourcePage": 56
     },
     {
       "id": 274,
       "category": "BAC Limits",
       "questionEn": "Which statement is true about BAC under 21?",
-      "questionFa": "کدام جمله درباره BAC برای زیر ۲۱ سال درست است؟",
+      "questionFa": "کدام جمله درباره ‎BAC‎ برای زیر ۲۱ سال درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -10128,75 +10129,75 @@
         },
         {
           "en": "For drivers under 21, a BAC of 0.01% or higher is illegal.",
-          "fa": "برای رانندگان زیر ۲۱ سال، BAC برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
+          "fa": "برای رانندگان زیر ۲۱ سال، ‎BAC‎ برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
           "correct": true,
           "id": "C"
         },
         {
           "en": "BAC measures tire pressure.",
-          "fa": "BAC فشار لاستیک را اندازه می‌گیرد.",
+          "fa": "‎BAC‎ فشار لاستیک را اندازه می‌گیرد.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "For drivers under 21, a BAC of 0.01% or higher is illegal.",
-      "explanationFa": "برای رانندگان زیر ۲۱ سال، BAC برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
+      "explanationFa": "برای رانندگان زیر ۲۱ سال، ‎BAC‎ برابر ۰٫۰۱٪ یا بیشتر غیرقانونی است.",
       "sourcePage": 56
     },
     {
       "id": 275,
       "category": "BAC Limits",
       "questionEn": "Which statement is true about commercial driver BAC?",
-      "questionFa": "کدام جمله درباره BAC راننده تجاری درست است؟",
+      "questionFa": "کدام جمله درباره ‎BAC‎ راننده تجاری درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "For commercial drivers, a BAC of 0.04% or higher is illegal.",
-          "fa": "برای رانندگان تجاری، BAC برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
+          "fa": "برای رانندگان تجاری، ‎BAC‎ برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
           "correct": true,
           "id": "A"
         },
         {
           "en": "For drivers over 21, BAC of 0.20% is the first illegal level.",
-          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی BAC است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی ‎BAC‎ است.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "BAC measures tire pressure.",
-          "fa": "BAC فشار لاستیک را اندازه می‌گیرد.",
+          "fa": "‎BAC‎ فشار لاستیک را اندازه می‌گیرد.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "For drivers under 21, BAC rules do not apply.",
-          "fa": "برای رانندگان زیر ۲۱ سال، قوانین BAC اعمال نمی‌شود.",
+          "fa": "برای رانندگان زیر ۲۱ سال، قوانین ‎BAC‎ اعمال نمی‌شود.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "For commercial drivers, a BAC of 0.04% or higher is illegal.",
-      "explanationFa": "برای رانندگان تجاری، BAC برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
+      "explanationFa": "برای رانندگان تجاری، ‎BAC‎ برابر ۰٫۰۴٪ یا بیشتر غیرقانونی است.",
       "sourcePage": 56
     },
     {
       "id": 276,
       "category": "DUI Arrests",
       "questionEn": "Which statement is true about DUI testing?",
-      "questionFa": "کدام جمله درباره آزمایش DUI درست است؟",
+      "questionFa": "کدام جمله درباره آزمایش ‎DUI‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Refusing a required DUI test has no consequence.",
-          "fa": "خودداری از آزمایش لازم DUI هیچ پیامدی ندارد.",
+          "fa": "خودداری از آزمایش لازم ‎DUI‎ هیچ پیامدی ندارد.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "By driving in California, you consent to a breath, blood, or urine test if suspected of DUI.",
-          "fa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به DUI با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
+          "fa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به ‎DUI‎ با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
           "correct": true,
           "id": "B"
         },
@@ -10214,20 +10215,20 @@
         }
       ],
       "explanationEn": "By driving in California, you consent to a breath, blood, or urine test if suspected of DUI.",
-      "explanationFa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به DUI با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
+      "explanationFa": "با رانندگی در کالیفرنیا، در صورت مشکوک بودن به ‎DUI‎ با آزمایش تنفس، خون یا ادرار موافقت ضمنی دارید.",
       "sourcePage": 57
     },
     {
       "id": 277,
       "category": "DUI Convictions",
       "questionEn": "Which statement is true about DUI penalties?",
-      "questionFa": "کدام جمله درباره مجازات DUI درست است؟",
+      "questionFa": "کدام جمله درباره مجازات ‎DUI‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "BAC increases less risk for older drivers.",
-          "fa": "BAC برای رانندگان مسن‌تر خطر را کمتر می‌کند.",
+          "fa": "‎BAC‎ برای رانندگان مسن‌تر خطر را کمتر می‌کند.",
           "correct": false,
           "id": "A"
         },
@@ -10239,56 +10240,56 @@
         },
         {
           "en": "For drivers over 21, BAC of 0.20% is the first illegal level.",
-          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی BAC است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی ‎BAC‎ است.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "A DUI conviction can suspend or revoke your driving privilege for one year.",
-          "fa": "محکومیت DUI می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
+          "fa": "محکومیت ‎DUI‎ می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "A DUI conviction can suspend or revoke your driving privilege for one year.",
-      "explanationFa": "محکومیت DUI می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
+      "explanationFa": "محکومیت ‎DUI‎ می‌تواند امتیاز رانندگی شما را برای یک سال تعلیق یا لغو کند.",
       "sourcePage": 57
     },
     {
       "id": 278,
       "category": "DUI Convictions",
       "questionEn": "Which statement is true about DUI record?",
-      "questionFa": "کدام جمله درباره سابقه DUI درست است؟",
+      "questionFa": "کدام جمله درباره سابقه ‎DUI‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "For drivers over 21, BAC of 0.20% is the first illegal level.",
-          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی BAC است.",
+          "fa": "برای رانندگان بالای ۲۱ سال، ۰٫۲۰٪ اولین حد غیرقانونی ‎BAC‎ است.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "BAC increases less risk for older drivers.",
-          "fa": "BAC برای رانندگان مسن‌تر خطر را کمتر می‌کند.",
+          "fa": "‎BAC‎ برای رانندگان مسن‌تر خطر را کمتر می‌کند.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "For drivers under 21, BAC rules do not apply.",
-          "fa": "برای رانندگان زیر ۲۱ سال، قوانین BAC اعمال نمی‌شود.",
+          "fa": "برای رانندگان زیر ۲۱ سال، قوانین ‎BAC‎ اعمال نمی‌شود.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "DUI convictions remain on your driver record for 10 years.",
-          "fa": "محکومیت‌های DUI به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
+          "fa": "محکومیت‌های ‎DUI‎ به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "DUI convictions remain on your driver record for 10 years.",
-      "explanationFa": "محکومیت‌های DUI به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
+      "explanationFa": "محکومیت‌های ‎DUI‎ به مدت ۱۰ سال در سابقه رانندگی شما باقی می‌مانند.",
       "sourcePage": 57
     },
     {
@@ -10375,7 +10376,7 @@
       "answers": [
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "A"
         },
@@ -10393,7 +10394,7 @@
         },
         {
           "en": "DMV collision reports are filed by police for you automatically.",
-          "fa": "پلیس به صورت خودکار گزارش DMV را برای شما ثبت می‌کند.",
+          "fa": "پلیس به صورت خودکار گزارش ‎DMV‎ را برای شما ثبت می‌کند.",
           "correct": false,
           "id": "D"
         }
@@ -10412,13 +10413,13 @@
       "answers": [
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "DMV collision reports are filed by police for you automatically.",
-          "fa": "پلیس به صورت خودکار گزارش DMV را برای شما ثبت می‌کند.",
+          "fa": "پلیس به صورت خودکار گزارش ‎DMV‎ را برای شما ثبت می‌کند.",
           "correct": false,
           "id": "B"
         },
@@ -10628,19 +10629,19 @@
       "id": 288,
       "category": "DMV Collision Reporting",
       "questionEn": "Which statement is true about collision reports to DMV?",
-      "questionFa": "کدام جمله درباره گزارش تصادف به DMV درست است؟",
+      "questionFa": "کدام جمله درباره گزارش تصادف به ‎DMV‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Report to DMV within 10 days if damage is over $1,000 or anyone is injured or killed.",
-          "fa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به DMV گزارش دهید.",
+          "fa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به ‎DMV‎ گزارش دهید.",
           "correct": true,
           "id": "A"
         },
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "B"
         },
@@ -10658,14 +10659,14 @@
         }
       ],
       "explanationEn": "Report to DMV within 10 days if damage is over $1,000 or anyone is injured or killed.",
-      "explanationFa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به DMV گزارش دهید.",
+      "explanationFa": "اگر خسارت بیش از ۱۰۰۰ دلار باشد یا کسی زخمی یا کشته شود، ظرف ۱۰ روز به ‎DMV‎ گزارش دهید.",
       "sourcePage": 59
     },
     {
       "id": 289,
       "category": "DMV Collision Reporting",
       "questionEn": "Which statement is true about SR 1 report?",
-      "questionFa": "کدام جمله درباره فرم SR 1 درست است؟",
+      "questionFa": "کدام جمله درباره فرم ‎SR 1‎ درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
@@ -10689,13 +10690,13 @@
         },
         {
           "en": "Each driver must file an SR 1 report when required, whether or not they caused the collision.",
-          "fa": "هر راننده هنگام نیاز باید فرم SR 1 را ثبت کند، چه مقصر بوده باشد چه نه.",
+          "fa": "هر راننده هنگام نیاز باید فرم ‎SR 1‎ را ثبت کند، چه مقصر بوده باشد چه نه.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "Each driver must file an SR 1 report when required, whether or not they caused the collision.",
-      "explanationFa": "هر راننده هنگام نیاز باید فرم SR 1 را ثبت کند، چه مقصر بوده باشد چه نه.",
+      "explanationFa": "هر راننده هنگام نیاز باید فرم ‎SR 1‎ را ثبت کند، چه مقصر بوده باشد چه نه.",
       "sourcePage": 59
     },
     {
@@ -10708,13 +10709,13 @@
       "answers": [
         {
           "en": "An SR 1 report is never required for injuries.",
-          "fa": "فرم SR 1 برای آسیب‌دیدگی هرگز لازم نیست.",
+          "fa": "فرم ‎SR 1‎ برای آسیب‌دیدگی هرگز لازم نیست.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "DMV collision reports are filed by police for you automatically.",
-          "fa": "پلیس به صورت خودکار گزارش DMV را برای شما ثبت می‌کند.",
+          "fa": "پلیس به صورت خودکار گزارش ‎DMV‎ را برای شما ثبت می‌کند.",
           "correct": false,
           "id": "B"
         },
@@ -10726,13 +10727,13 @@
         },
         {
           "en": "DMV adds qualifying collisions to your driver record regardless of who caused them.",
-          "fa": "DMV تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
+          "fa": "‎DMV‎ تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "DMV adds qualifying collisions to your driver record regardless of who caused them.",
-      "explanationFa": "DMV تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
+      "explanationFa": "‎DMV‎ تصادف‌های مشمول را بدون توجه به مقصر بودن به سابقه رانندگی اضافه می‌کند.",
       "sourcePage": 60
     },
     {
@@ -10831,7 +10832,7 @@
         },
         {
           "en": "Most drivers need a commercial Class A license.",
-          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس A نیاز دارند.",
+          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس ‎A‎ نیاز دارند.",
           "correct": false,
           "id": "C"
         },
@@ -10874,7 +10875,7 @@
         },
         {
           "en": "Most drivers need a commercial Class A license.",
-          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس A نیاز دارند.",
+          "fa": "بیشتر رانندگان به گواهینامه تجاری کلاس ‎A‎ نیاز دارند.",
           "correct": false,
           "id": "D"
         }
@@ -10887,13 +10888,13 @@
       "id": 295,
       "category": "Driver License",
       "questionEn": "In California, what should you remember about Class C licenses?",
-      "questionFa": "در کالیفرنیا، درباره گواهینامه کلاس C چه چیزی را باید به یاد داشته باشید؟",
+      "questionFa": "در کالیفرنیا، درباره گواهینامه کلاس ‎C‎ چه چیزی را باید به یاد داشته باشید؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Most people need a noncommercial Class C driver's license.",
-          "fa": "بیشتر افراد به گواهینامه کلاس C غیرتجاری نیاز دارند.",
+          "fa": "بیشتر افراد به گواهینامه کلاس ‎C‎ غیرتجاری نیاز دارند.",
           "correct": true,
           "id": "A"
         },
@@ -10917,7 +10918,7 @@
         }
       ],
       "explanationEn": "Most people need a noncommercial Class C driver's license.",
-      "explanationFa": "بیشتر افراد به گواهینامه کلاس C غیرتجاری نیاز دارند.",
+      "explanationFa": "بیشتر افراد به گواهینامه کلاس ‎C‎ غیرتجاری نیاز دارند.",
       "sourcePage": 1
     },
     {
@@ -11104,6 +11105,2831 @@
       "explanationEn": "It is illegal to wear a headset or earplugs in both ears while driving.",
       "explanationFa": "استفاده از هدست یا گوش‌گیر در هر دو گوش هنگام رانندگی غیرقانونی است.",
       "sourcePage": 3
+    },
+    {
+      "id": 301,
+      "category": "DMV Records",
+      "questionEn": "When must you notify DMV within 5 days?",
+      "questionFa": "چه زمانی باید در عرض ۵ روز به اداره ‎DMV‎ اطلاع دهید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "When you sell or transfer your vehicle",
+          "fa": "وقتی موتر/خودروی خود را می‌فروشید یا انتقال می‌دهید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "When you change the vehicle color",
+          "fa": "وقتی رنگ موتر/خودرو را تغییر می‌دهید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "When you receive a traffic ticket",
+          "fa": "وقتی جریمه رانندگی دریافت می‌کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "When you change insurance companies",
+          "fa": "وقتی شرکت بیمه خود را تغییر می‌دهید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "When you sell or transfer your vehicle",
+      "explanationFa": "وقتی موتر/خودروی خود را می‌فروشید یا انتقال می‌دهید",
+      "sourcePage": 1
+    },
+    {
+      "id": 302,
+      "category": "Alcohol and BAC",
+      "questionEn": "For a driver 21 or older, what BAC is illegal?",
+      "questionFa": "برای راننده ۲۱ ساله یا بزرگ‌تر، چه مقدار ‎BAC‎ غیرقانونی است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "0.08% or higher",
+          "fa": "۰٫۰۸٪ یا بیشتر",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "0.10% or higher",
+          "fa": "۰٫۱۰٪ یا بیشتر",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "0.05% or higher",
+          "fa": "۰٫۰۵٪ یا بیشتر",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Any amount over 0.00%",
+          "fa": "هر مقدار بالاتر از ۰٫۰۰٪",
+          "correct": false
+        }
+      ],
+      "explanationEn": "0.08% or higher",
+      "explanationFa": "۰٫۰۸٪ یا بیشتر",
+      "sourcePage": 1
+    },
+    {
+      "id": 303,
+      "category": "Freeway Driving",
+      "questionEn": "If you are driving slowly in the left lane and a driver behind you wants to go faster, what should you do?",
+      "questionFa": "اگر در خط چپ آزادراه آهسته رانندگی می‌کنید و راننده پشت سر می‌خواهد تندتر برود، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Move to the right lane when it is safe",
+          "fa": "وقتی ایمن است به خط راست بروید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Do not change lanes if you are within the speed limit",
+          "fa": "اگر در محدوده سرعت هستید خط خود را تغییر ندهید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Change lanes only if five or more vehicles are behind you",
+          "fa": "فقط وقتی پنج یا بیشتر خودرو پشت سر شماست خط عوض کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Brake to make the driver behind you slow down",
+          "fa": "ترمز کنید تا راننده پشت سر آهسته شود",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Move to the right lane when it is safe",
+      "explanationFa": "وقتی ایمن است به خط راست بروید",
+      "sourcePage": 1
+    },
+    {
+      "id": 304,
+      "category": "Defensive Driving",
+      "questionEn": "Which statement about other drivers is true?",
+      "questionFa": "کدام عبارت درباره رانندگان دیگر درست است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Never assume other drivers will give you the right-of-way",
+          "fa": "هرگز فرض نکنید رانندگان دیگر حق تقدم را به شما می‌دهند",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Drivers always obey signs and signals",
+          "fa": "رانندگان همیشه تابلوها و چراغ‌ها را رعایت می‌کنند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Drivers always turn in the direction they signal",
+          "fa": "رانندگان همیشه همان جهتی می‌پیچند که راهنما زده‌اند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Other drivers always see you clearly",
+          "fa": "رانندگان دیگر همیشه شما را واضح می‌بینند",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Never assume other drivers will give you the right-of-way",
+      "explanationFa": "هرگز فرض نکنید رانندگان دیگر حق تقدم را به شما می‌دهند",
+      "sourcePage": 1
+    },
+    {
+      "id": 305,
+      "category": "Parking on Hills",
+      "questionEn": "When parking downhill next to a curb, which way should you turn your front wheels?",
+      "questionFa": "هنگام پارک در سرازیری کنار جدول، چرخ‌های جلو را به کدام طرف باید بچرخانید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Toward the curb",
+          "fa": "به طرف جدول",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Away from the curb",
+          "fa": "دور از جدول",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Parallel to the curb",
+          "fa": "موازی با جدول",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Straight ahead only",
+          "fa": "فقط مستقیم",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Toward the curb",
+      "explanationFa": "به طرف جدول",
+      "sourcePage": 1
+    },
+    {
+      "id": 306,
+      "category": "Scanning",
+      "questionEn": "When looking ahead while driving, what should you do?",
+      "questionFa": "هنگام نگاه کردن به جلو در رانندگی، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Look back and forth, near and far",
+          "fa": "نزدیک و دور و اطراف را مرتب نگاه کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Look straight ahead at all times",
+          "fa": "همیشه فقط مستقیم به جلو نگاه کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Look only at the vehicle in front of you",
+          "fa": "فقط به خودروی جلویی نگاه کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Look mostly at your navigation screen",
+          "fa": "بیشتر به صفحه مسیریاب نگاه کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Look back and forth, near and far",
+      "explanationFa": "نزدیک و دور و اطراف را مرتب نگاه کنید",
+      "sourcePage": 1
+    },
+    {
+      "id": 307,
+      "category": "Railroad Crossings",
+      "questionEn": "After stopping before railroad tracks with multiple tracks, when should you proceed?",
+      "questionFa": "بعد از توقف قبل از ریل راه‌آهن با چند خط، چه زمانی باید حرکت کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Only when you can clearly see both directions",
+          "fa": "فقط وقتی هر دو جهت را واضح می‌بینید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "As soon as one train passes",
+          "fa": "به محض اینکه یک قطار رد شد",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only when other vehicles start crossing",
+          "fa": "فقط وقتی خودروهای دیگر شروع به عبور کردند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "When the crossing gate starts to move down",
+          "fa": "وقتی مانع راه‌آهن شروع به پایین آمدن کرد",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Only when you can clearly see both directions",
+      "explanationFa": "فقط وقتی هر دو جهت را واضح می‌بینید",
+      "sourcePage": 1
+    },
+    {
+      "id": 308,
+      "category": "Lane Markings",
+      "questionEn": "You should not cross double solid yellow lines to do what?",
+      "questionFa": "برای انجام کدام کار نباید از روی خطوط زرد دوتایی ممتد عبور کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Pass another vehicle",
+          "fa": "سبقت گرفتن از خودروی دیگر",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Turn left when allowed",
+          "fa": "گردش به چپ وقتی مجاز است",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Enter or leave a driveway when allowed",
+          "fa": "ورود یا خروج از ورودی ساختمان/گاراژ وقتی مجاز است",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Make a legal U-turn where allowed",
+          "fa": "دور زدن قانونی در محل مجاز",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Pass another vehicle",
+      "explanationFa": "سبقت گرفتن از خودروی دیگر",
+      "sourcePage": 2
+    },
+    {
+      "id": 309,
+      "category": "Headlights",
+      "questionEn": "When should you use high-beam headlights at night?",
+      "questionFa": "در شب چه زمانی باید از نوربالا استفاده کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "When it is legal and safe",
+          "fa": "وقتی قانونی و ایمن است",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "As little as possible, even on dark roads",
+          "fa": "تا حد ممکن کمتر، حتی در جاده تاریک",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only on streets with no lights",
+          "fa": "فقط در خیابان‌های بدون روشنایی",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Whenever another vehicle is approaching",
+          "fa": "هر وقت خودرویی از روبه‌رو نزدیک می‌شود",
+          "correct": false
+        }
+      ],
+      "explanationEn": "When it is legal and safe",
+      "explanationFa": "وقتی قانونی و ایمن است",
+      "sourcePage": 2
+    },
+    {
+      "id": 310,
+      "category": "Backing",
+      "questionEn": "When backing out of an angled parking space, where should you look?",
+      "questionFa": "هنگام خارج شدن با دنده عقب از جای پارک زاویه‌دار، باید کجا را نگاه کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Look over your right shoulder while backing",
+          "fa": "هنگام عقب رفتن از روی شانه راست نگاه کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Only use the rearview mirror",
+          "fa": "فقط از آینه عقب استفاده کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only use side mirrors",
+          "fa": "فقط از آینه‌های بغل استفاده کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Look forward because the rear is clear",
+          "fa": "به جلو نگاه کنید چون پشت خودرو خالی است",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Look over your right shoulder while backing",
+      "explanationFa": "هنگام عقب رفتن از روی شانه راست نگاه کنید",
+      "sourcePage": 2
+    },
+    {
+      "id": 311,
+      "category": "Stopping at Corners",
+      "questionEn": "Where should you stop when there is no crosswalk or limit line?",
+      "questionFa": "وقتی خط عابر پیاده یا خط توقف وجود ندارد، کجا باید توقف کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "At the corner before entering the intersection",
+          "fa": "سر نبش، قبل از ورود به تقاطع",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Just after the corner",
+          "fa": "درست بعد از نبش",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "20 feet before the corner",
+          "fa": "۲۰ فوت قبل از نبش",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "In the middle of the intersection",
+          "fa": "وسط تقاطع",
+          "correct": false
+        }
+      ],
+      "explanationEn": "At the corner before entering the intersection",
+      "explanationFa": "سر نبش، قبل از ورود به تقاطع",
+      "sourcePage": 2
+    },
+    {
+      "id": 312,
+      "category": "Animals on Highways",
+      "questionEn": "You may be fined up to $1,000 or jailed for six months for what violation?",
+      "questionFa": "برای کدام تخلف ممکن است تا ۱۰۰۰ دلار جریمه یا شش ماه زندانی شوید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Abandoning or dumping an animal on a highway",
+          "fa": "رها کردن یا انداختن حیوان در شاهراه",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Using a center left turn lane to turn left",
+          "fa": "استفاده از خط وسط برای گردش به چپ",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Parking in a bike lane",
+          "fa": "پارک کردن در خط دوچرخه",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Driving with headlights on during the day",
+          "fa": "رانندگی با چراغ روشن در روز",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Abandoning or dumping an animal on a highway",
+      "explanationFa": "رها کردن یا انداختن حیوان در شاهراه",
+      "sourcePage": 2
+    },
+    {
+      "id": 313,
+      "category": "Speed Limits",
+      "questionEn": "Unless otherwise posted, what is the speed limit in a business district?",
+      "questionFa": "مگر اینکه خلاف آن نصب شده باشد، سرعت مجاز در منطقه تجاری چقدر است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "35 mph",
+          "fa": "۳۵ مایل در ساعت",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "30 mph",
+          "fa": "۳۰ مایل در ساعت",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "45 mph",
+          "fa": "۴۵ مایل در ساعت",
+          "correct": false
+        }
+      ],
+      "explanationEn": "25 mph",
+      "explanationFa": "۲۵ مایل در ساعت",
+      "sourcePage": 2
+    },
+    {
+      "id": 314,
+      "category": "Disabled Parking",
+      "questionEn": "A blue parking sign/curb means parking is allowed for whom?",
+      "questionFa": "علامت یا جدول آبی یعنی پارک برای چه کسانی مجاز است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Disabled persons with a special placard or plate",
+          "fa": "افراد دارای معلولیت با کارت یا پلاک ویژه",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Only people who use wheelchairs",
+          "fa": "فقط کسانی که از صندلی چرخدار استفاده می‌کنند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Disabled persons without a placard or plate",
+          "fa": "افراد دارای معلولیت بدون کارت یا پلاک ویژه",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Anyone for a short time",
+          "fa": "هر کسی برای مدت کوتاه",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Disabled persons with a special placard or plate",
+      "explanationFa": "افراد دارای معلولیت با کارت یا پلاک ویژه",
+      "sourcePage": 2
+    },
+    {
+      "id": 315,
+      "category": "Fog or Dust",
+      "questionEn": "What is the best advice for driving in heavy fog or dust?",
+      "questionFa": "بهترین توصیه برای رانندگی در مه یا گردوخاک شدید چیست؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Do not drive until conditions improve",
+          "fa": "تا بهتر شدن وضعیت رانندگی نکنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Do not drive too slowly because others may hit you",
+          "fa": "خیلی آهسته نروید چون ممکن است دیگران به شما بزنند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Flash high and low beams repeatedly to see better",
+          "fa": "برای دید بهتر نوربالا و نورپایین را پشت سر هم روشن و خاموش کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Use only parking lights",
+          "fa": "فقط از چراغ پارک استفاده کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Do not drive until conditions improve",
+      "explanationFa": "تا بهتر شدن وضعیت رانندگی نکنید",
+      "sourcePage": 2
+    },
+    {
+      "id": 316,
+      "category": "Avoiding Collisions",
+      "questionEn": "If an oncoming vehicle begins turning left in front of you, what should you do?",
+      "questionFa": "اگر خودروی روبه‌رو جلو شما شروع به گردش به چپ کرد، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Slow down or stop to avoid a collision",
+          "fa": "برای جلوگیری از تصادف سرعت را کم کنید یا توقف کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Honk and keep your speed",
+          "fa": "بوق بزنید و سرعت خود را حفظ کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Keep your speed and take your right-of-way",
+          "fa": "سرعت خود را حفظ کنید و حق تقدم خود را بگیرید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Move into the oncoming lane",
+          "fa": "وارد خط روبه‌رو شوید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Slow down or stop to avoid a collision",
+      "explanationFa": "برای جلوگیری از تصادف سرعت را کم کنید یا توقف کنید",
+      "sourcePage": 3
+    },
+    {
+      "id": 317,
+      "category": "Traffic Flow",
+      "questionEn": "Driving slower than the flow of traffic can cause what?",
+      "questionFa": "رانندگی آهسته‌تر از جریان ترافیک باعث چه می‌شود؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "A greater chance of collisions",
+          "fa": "احتمال بیشتر تصادف",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "A lower chance of collisions",
+          "fa": "احتمال کمتر تصادف",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "No change in collision risk",
+          "fa": "هیچ تغییری در احتمال تصادف",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Automatic right-of-way",
+          "fa": "حق تقدم خودکار",
+          "correct": false
+        }
+      ],
+      "explanationEn": "A greater chance of collisions",
+      "explanationFa": "احتمال بیشتر تصادف",
+      "sourcePage": 3
+    },
+    {
+      "id": 318,
+      "category": "Blind Pedestrians",
+      "questionEn": "A blind pedestrian with a white cane steps back and pulls in the cane. What should you do?",
+      "questionFa": "عابر نابینا با عصای سفید یک قدم عقب می‌رود و عصا را عقب می‌کشد؛ چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Stop at least 6 feet from the crosswalk and wait",
+          "fa": "حداقل ۶ فوت دورتر از خط عابر توقف کنید و منتظر بمانید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Go because the pedestrian is not ready",
+          "fa": "عبور کنید چون عابر آماده نیست",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Honk to tell the pedestrian when to cross",
+          "fa": "بوق بزنید تا به عابر بگویید چه وقت عبور کند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Drive around the pedestrian quickly",
+          "fa": "سریع از کنار عابر عبور کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Stop at least 6 feet from the crosswalk and wait",
+      "explanationFa": "حداقل ۶ فوت دورتر از خط عابر توقف کنید و منتظر بمانید",
+      "sourcePage": 3
+    },
+    {
+      "id": 319,
+      "category": "Green Arrow",
+      "questionEn": "When you are in a turn lane controlled by a green arrow, which statement is true?",
+      "questionFa": "وقتی در خط گردش با فلش سبز هستید، کدام عبارت درست است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Oncoming vehicles and pedestrians should be stopped by red lights",
+          "fa": "خودروهای روبه‌رو و عابران باید با چراغ قرمز متوقف باشند",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "All vehicles and pedestrians must always yield to you",
+          "fa": "همه خودروها و عابران همیشه باید به شما حق تقدم بدهند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "You may turn without checking traffic",
+          "fa": "می‌توانید بدون بررسی ترافیک بپیچید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "A green arrow means stop before turning",
+          "fa": "فلش سبز یعنی قبل از پیچیدن توقف کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Oncoming vehicles and pedestrians should be stopped by red lights",
+      "explanationFa": "خودروهای روبه‌رو و عابران باید با چراغ قرمز متوقف باشند",
+      "sourcePage": 3
+    },
+    {
+      "id": 320,
+      "category": "Emergency Vehicles",
+      "questionEn": "How should you yield to an emergency vehicle?",
+      "questionFa": "چگونه باید به خودروی اضطراری حق تقدم بدهید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Drive as close as possible to the right edge of the road and stop",
+          "fa": "تا حد ممکن به کنار راست جاده بروید و توقف کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Move to the right lane and keep driving slowly",
+          "fa": "به خط راست بروید و آهسته ادامه دهید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Stop immediately, even inside an intersection",
+          "fa": "فوراً توقف کنید، حتی اگر داخل تقاطع هستید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Speed up until you find a parking lot",
+          "fa": "سرعت بگیرید تا پارکینگ پیدا کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Drive as close as possible to the right edge of the road and stop",
+      "explanationFa": "تا حد ممکن به کنار راست جاده بروید و توقف کنید",
+      "sourcePage": 3
+    },
+    {
+      "id": 321,
+      "category": "Curves",
+      "questionEn": "When should you brake to slow down for a sharp curve?",
+      "questionFa": "برای کم کردن سرعت در پیچ تند، چه زمانی باید ترمز کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Before entering the curve",
+          "fa": "قبل از ورود به پیچ",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Just after entering the curve",
+          "fa": "درست بعد از ورود به پیچ",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "During the entire curve",
+          "fa": "در تمام طول پیچ",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only after leaving the curve",
+          "fa": "فقط بعد از خروج از پیچ",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Before entering the curve",
+      "explanationFa": "قبل از ورود به پیچ",
+      "sourcePage": 3
+    },
+    {
+      "id": 322,
+      "category": "Following Distance",
+      "questionEn": "If the vehicle ahead often slows for no clear reason, what should you do?",
+      "questionFa": "اگر خودروی جلو بدون دلیل واضح مرتب سرعت کم می‌کند، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Increase your following distance",
+          "fa": "فاصله خود را با خودروی جلو افزایش دهید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Speed up and pass as soon as possible",
+          "fa": "سرعت بگیرید و هرچه زودتر سبقت بگیرید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Flash your headlights quickly",
+          "fa": "چراغ‌ها را سریع روشن و خاموش کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Follow very closely",
+          "fa": "خیلی نزدیک دنبال کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Increase your following distance",
+      "explanationFa": "فاصله خود را با خودروی جلو افزایش دهید",
+      "sourcePage": 3
+    },
+    {
+      "id": 323,
+      "category": "Passing Large Vehicles",
+      "questionEn": "You want to pass a large truck in the middle lane of a three-lane road. What is best?",
+      "questionFa": "می‌خواهید از کامیون بزرگ در خط وسط جاده سه‌خطه سبقت بگیرید. بهترین کار چیست؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Pass on the left quickly and safely",
+          "fa": "از سمت چپ با سرعت مناسب و ایمن سبقت بگیرید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Pass very slowly on the left",
+          "fa": "خیلی آهسته از سمت چپ سبقت بگیرید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Pass very fast on the right",
+          "fa": "خیلی سریع از سمت راست سبقت بگیرید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Drive in the truck blind spot",
+          "fa": "در نقطه کور کامیون رانندگی کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Pass on the left quickly and safely",
+      "explanationFa": "از سمت چپ با سرعت مناسب و ایمن سبقت بگیرید",
+      "sourcePage": 3
+    },
+    {
+      "id": 324,
+      "category": "DUI Penalties",
+      "questionEn": "If you are arrested with BAC above the legal limit, what may happen?",
+      "questionFa": "اگر با ‎BAC‎ بالاتر از حد قانونی گرفته شوید، چه ممکن است اتفاق بیفتد؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "The court may fine you",
+          "fa": "دادگاه ممکن است شما را جریمه کند",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "A breath test alone can never be used against you",
+          "fa": "آزمایش تنفس به تنهایی هرگز علیه شما استفاده نمی‌شود",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Your license is automatically canceled regardless of status",
+          "fa": "گواهینامه شما بدون درنظر گرفتن وضعیت، خودکار باطل می‌شود",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "You must only retake the vision test",
+          "fa": "فقط باید آزمون بینایی را دوباره بدهید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "The court may fine you",
+      "explanationFa": "دادگاه ممکن است شما را جریمه کند",
+      "sourcePage": 4
+    },
+    {
+      "id": 325,
+      "category": "U-Turns",
+      "questionEn": "On a divided road with several lanes in your direction, where should you start a U-turn?",
+      "questionFa": "در جاده تقسیم‌شده با چند خط در جهت شما، برای دور زدن باید از کجا شروع کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "From the left lane",
+          "fa": "از خط سمت چپ",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "From the center of the roadway",
+          "fa": "از وسط جاده",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "From the right edge",
+          "fa": "از کناره راست جاده",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "From any lane",
+          "fa": "از هر خطی",
+          "correct": false
+        }
+      ],
+      "explanationEn": "From the left lane",
+      "explanationFa": "از خط سمت چپ",
+      "sourcePage": 4
+    },
+    {
+      "id": 326,
+      "category": "Collision Information",
+      "questionEn": "After a collision, what information should you exchange with others involved?",
+      "questionFa": "بعد از تصادف، چه اطلاعاتی را باید با افراد درگیر رد و بدل کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Insurance, registration, and current address",
+          "fa": "بیمه، کارت ثبت خودرو و آدرس فعلی",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Only proof of insurance",
+          "fa": "فقط مدرک بیمه",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only insurance and registration",
+          "fa": "فقط بیمه و کارت ثبت خودرو",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only your first name",
+          "fa": "فقط نام کوچک",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Insurance, registration, and current address",
+      "explanationFa": "بیمه، کارت ثبت خودرو و آدرس فعلی",
+      "sourcePage": 4
+    },
+    {
+      "id": 327,
+      "category": "Flashing Traffic Signal",
+      "questionEn": "If you approach an intersection with a flashing red signal, what should you do?",
+      "questionFa": "اگر به تقاطعی با چراغ قرمز چشمک‌زن نزدیک شوید، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Stop before entering, then proceed when safe",
+          "fa": "قبل از ورود توقف کنید، سپس وقتی ایمن است حرکت کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Continue carefully without stopping",
+          "fa": "بدون توقف با احتیاط عبور کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Stop and wait for a green light",
+          "fa": "توقف کنید و منتظر چراغ سبز بمانید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Speed up to clear the intersection",
+          "fa": "سرعت بگیرید تا از تقاطع رد شوید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Stop before entering, then proceed when safe",
+      "explanationFa": "قبل از ورود توقف کنید، سپس وقتی ایمن است حرکت کنید",
+      "sourcePage": 4
+    },
+    {
+      "id": 328,
+      "category": "School Bus",
+      "questionEn": "A school bus is stopped ahead on your side of the road with red lights flashing. What should you do?",
+      "questionFa": "اتوبوس مدرسه در طرف شما جلوتر توقف کرده و چراغ‌های قرمز آن چشمک می‌زند؛ چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Stop as long as the red lights are flashing",
+          "fa": "تا زمانی که چراغ‌های قرمز چشمک می‌زنند توقف کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Stop first, then go when you think it is safe",
+          "fa": "اول توقف کنید، سپس اگر فکر کردید ایمن است حرکت کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Stop until all children have crossed your lane, then go",
+          "fa": "تا عبور همه کودکان از خط شما توقف کنید، سپس حرکت کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Slow down but continue",
+          "fa": "آهسته شوید ولی ادامه دهید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Stop as long as the red lights are flashing",
+      "explanationFa": "تا زمانی که چراغ‌های قرمز چشمک می‌زنند توقف کنید",
+      "sourcePage": 4
+    },
+    {
+      "id": 329,
+      "category": "Motorcycle Awareness",
+      "questionEn": "Why should you look carefully for motorcyclists before turning?",
+      "questionFa": "چرا قبل از گردش باید با دقت مراقب موتورسیکلت‌ها باشید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Their small size makes them hard to see",
+          "fa": "به دلیل اندازه کوچک، دیدن آن‌ها دشوار است",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "They always have right-of-way at intersections",
+          "fa": "آن‌ها همیشه در تقاطع‌ها حق تقدم دارند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "They must always use a full traffic lane",
+          "fa": "آن‌ها همیشه باید از یک خط کامل استفاده کنند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "They never stop at red lights",
+          "fa": "آن‌ها هرگز پشت چراغ قرمز توقف نمی‌کنند",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Their small size makes them hard to see",
+      "explanationFa": "به دلیل اندازه کوچک، دیدن آن‌ها دشوار است",
+      "sourcePage": 4
+    },
+    {
+      "id": 330,
+      "category": "Unattended Children",
+      "questionEn": "Leaving a child age six or younger unattended in a vehicle is illegal in which situation?",
+      "questionFa": "رها کردن کودک ۶ ساله یا کوچک‌تر بدون سرپرست در خودرو در کدام حالت غیرقانونی است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "When the key is in the ignition",
+          "fa": "وقتی کلید در استارت است",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "If the child is with a 12-year-old sibling",
+          "fa": "اگر کودک همراه خواهر یا برادر ۱۲ ساله باشد",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "On a cold rainy day with windows up",
+          "fa": "در روز سرد و بارانی با شیشه‌های بالا",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only if the car is moving",
+          "fa": "فقط اگر خودرو در حال حرکت باشد",
+          "correct": false
+        }
+      ],
+      "explanationEn": "When the key is in the ignition",
+      "explanationFa": "وقتی کلید در استارت است",
+      "sourcePage": 4
+    },
+    {
+      "id": 331,
+      "category": "Green Arrow",
+      "questionEn": "A green left arrow traffic signal means what?",
+      "questionFa": "فلش سبز به چپ در چراغ راهنمایی چه معنی دارد؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Make a protected turn in that direction",
+          "fa": "گردش محافظت‌شده به آن جهت انجام دهید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Turn left or continue straight",
+          "fa": "به چپ بپیچید یا مستقیم بروید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Turn only after stopping",
+          "fa": "فقط بعد از توقف بپیچید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Left turns are prohibited",
+          "fa": "گردش به چپ ممنوع است",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Make a protected turn in that direction",
+      "explanationFa": "گردش محافظت‌شده به آن جهت انجام دهید",
+      "sourcePage": 4
+    },
+    {
+      "id": 332,
+      "category": "Changing Multiple Lanes",
+      "questionEn": "If you must cross several lanes to exit, what should you do?",
+      "questionFa": "اگر برای خروج باید چند خط را عوض کنید، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Change lanes one at a time until you reach the proper lane",
+          "fa": "خط‌ها را یکی‌یکی عوض کنید تا به خط مناسب برسید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Carefully cross all lanes at once",
+          "fa": "با احتیاط همه خط‌ها را یک‌باره قطع کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Slow down before crossing each lane",
+          "fa": "قبل از عبور از هر خط آهسته شوید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Stop in your lane and wait",
+          "fa": "در خط خود توقف کنید و منتظر بمانید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Change lanes one at a time until you reach the proper lane",
+      "explanationFa": "خط‌ها را یکی‌یکی عوض کنید تا به خط مناسب برسید",
+      "sourcePage": 4
+    },
+    {
+      "id": 333,
+      "category": "Extra Caution",
+      "questionEn": "Where should you usually drive more carefully?",
+      "questionFa": "معمولاً کجا باید با احتیاط بیشتری رانندگی کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Near schools, playgrounds, and residential areas",
+          "fa": "نزدیک مدارس، زمین‌های بازی و مناطق مسکونی",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "When passing large trucks on highways",
+          "fa": "هنگام عبور از کنار کامیون‌های بزرگ در شاهراه",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "When looking at a controlled collision scene",
+          "fa": "وقتی می‌خواهید محل تصادف تحت کنترل را نگاه کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only on empty rural roads",
+          "fa": "فقط در جاده‌های روستایی خالی",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Near schools, playgrounds, and residential areas",
+      "explanationFa": "نزدیک مدارس، زمین‌های بازی و مناطق مسکونی",
+      "sourcePage": 4
+    },
+    {
+      "id": 334,
+      "category": "DUI Penalties",
+      "questionEn": "If convicted of DUI, what penalty may you face?",
+      "questionFa": "اگر به رانندگی تحت تأثیر الکل یا مواد محکوم شوید، چه مجازاتی ممکن است داشته باشید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Up to six months in jail",
+          "fa": "تا شش ماه زندان",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Up to twelve months in jail for every first offense",
+          "fa": "برای هر بار اول تا دوازده ماه زندان",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "No jail, only a $500 fine",
+          "fa": "بدون زندان، فقط ۵۰۰ دلار جریمه",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only a warning letter",
+          "fa": "فقط یک نامه هشدار",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Up to six months in jail",
+      "explanationFa": "تا شش ماه زندان",
+      "sourcePage": 5
+    },
+    {
+      "id": 335,
+      "category": "U-Turns",
+      "questionEn": "Are U-turns legal in business districts?",
+      "questionFa": "آیا دور زدن در مناطق تجاری قانونی است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Yes, if it is not dangerous and not prohibited",
+          "fa": "بله، اگر خطرناک نباشد و ممنوع نشده باشد",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Always illegal because it is dangerous",
+          "fa": "همیشه غیرقانونی است چون خطرناک است",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only legal at intersections unless a sign says no U-turn",
+          "fa": "فقط در تقاطع‌ها قانونی است مگر تابلوی ممنوعیت باشد",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only legal at night",
+          "fa": "فقط در شب قانونی است",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Yes, if it is not dangerous and not prohibited",
+      "explanationFa": "بله، اگر خطرناک نباشد و ممنوع نشده باشد",
+      "sourcePage": 5
+    },
+    {
+      "id": 336,
+      "category": "Railroad Gates",
+      "questionEn": "When may you go around or under a railroad crossing gate?",
+      "questionFa": "چه زمانی می‌توانید از کنار یا زیر مانع راه‌آهن عبور کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Under no circumstances",
+          "fa": "تحت هیچ شرایطی",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "When you can see both directions clearly",
+          "fa": "وقتی هر دو جهت را خوب می‌بینید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "When warning lights are not flashing",
+          "fa": "وقتی چراغ‌های هشدار چشمک نمی‌زنند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "When other drivers do it first",
+          "fa": "وقتی رانندگان دیگر اول انجام دهند",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Under no circumstances",
+      "explanationFa": "تحت هیچ شرایطی",
+      "sourcePage": 5
+    },
+    {
+      "id": 337,
+      "category": "Headlight Glare",
+      "questionEn": "At night, an approaching vehicle has high beams on and makes it hard to see. What should you do?",
+      "questionFa": "شب است و خودروی روبه‌رو نوربالا دارد و دید شما سخت شده؛ چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Look toward the right edge of your lane",
+          "fa": "به سمت کناره راست خط خود نگاه کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Look toward the left edge of your lane",
+          "fa": "به سمت کناره چپ خط خود نگاه کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Look directly at the headlights",
+          "fa": "مستقیم به چراغ‌ها نگاه کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Turn on your high beams and stare ahead",
+          "fa": "نوربالا را روشن کنید و مستقیم نگاه کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Look toward the right edge of your lane",
+      "explanationFa": "به سمت کناره راست خط خود نگاه کنید",
+      "sourcePage": 5
+    },
+    {
+      "id": 338,
+      "category": "Headlights and Wipers",
+      "questionEn": "On rainy, snowy, or foggy days, when using wipers, how should you use headlights?",
+      "questionFa": "در روزهای بارانی، برفی یا مه‌آلود، هنگام استفاده از برف‌پاک‌کن، چراغ‌ها را چگونه باید استفاده کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Use headlights so other drivers can see you",
+          "fa": "چراغ‌ها را روشن کنید تا رانندگان دیگر شما را ببینند",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Use high beams",
+          "fa": "از نوربالا استفاده کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only use headlights on highways",
+          "fa": "فقط در بزرگراه‌ها از چراغ جلو استفاده کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Use only parking lights",
+          "fa": "فقط از چراغ پارک استفاده کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Use headlights so other drivers can see you",
+      "explanationFa": "چراغ‌ها را روشن کنید تا رانندگان دیگر شما را ببینند",
+      "sourcePage": 5
+    },
+    {
+      "id": 339,
+      "category": "Uncontrolled Intersections",
+      "questionEn": "At an uncontrolled intersection where you cannot see until you enter, what is the speed limit?",
+      "questionFa": "در تقاطع بدون کنترل که تا وارد نشوید دید ندارید، سرعت مجاز چقدر است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "20 mph",
+          "fa": "۲۰ مایل در ساعت",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "35 mph",
+          "fa": "۳۵ مایل در ساعت",
+          "correct": false
+        }
+      ],
+      "explanationEn": "15 mph",
+      "explanationFa": "۱۵ مایل در ساعت",
+      "sourcePage": 6
+    },
+    {
+      "id": 340,
+      "category": "Hydroplaning",
+      "questionEn": "If your vehicle starts to hydroplane, what should you do?",
+      "questionFa": "اگر خودرو به علت آب روی جاده شروع به هیدروپلنینگ کند، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Gradually slow down and avoid hard braking",
+          "fa": "به‌تدریج سرعت را کم کنید و از ترمز شدید خودداری کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Keep a steady speed to regain traction",
+          "fa": "برای چسبندگی بهتر با سرعت ثابت ادامه دهید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Brake hard to stop skidding",
+          "fa": "برای جلوگیری از لغزش محکم ترمز کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Turn sharply off the road",
+          "fa": "با شدت به بیرون جاده بپیچید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Gradually slow down and avoid hard braking",
+      "explanationFa": "به‌تدریج سرعت را کم کنید و از ترمز شدید خودداری کنید",
+      "sourcePage": 6
+    },
+    {
+      "id": 341,
+      "category": "Scanning",
+      "questionEn": "Why should you look 10 to 15 seconds ahead while driving?",
+      "questionFa": "چرا هنگام رانندگی باید ۱۰ تا ۱۵ ثانیه جلوتر را نگاه کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "To see possible hazards early",
+          "fa": "برای دیدن به‌موقع خطرات احتمالی",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Because it is always required by law",
+          "fa": "چون همیشه قانوناً لازم است",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "To focus only on the road directly ahead",
+          "fa": "برای تمرکز فقط روی جاده روبه‌رو",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "To avoid checking mirrors",
+          "fa": "برای اینکه آینه‌ها را بررسی نکنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "To see possible hazards early",
+      "explanationFa": "برای دیدن به‌موقع خطرات احتمالی",
+      "sourcePage": 6
+    },
+    {
+      "id": 342,
+      "category": "Blocking Intersections",
+      "questionEn": "When is it illegal to enter an intersection?",
+      "questionFa": "چه زمانی ورود به تقاطع غیرقانونی است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "When you cannot get completely across before the light turns red",
+          "fa": "وقتی نمی‌توانید قبل از قرمز شدن چراغ کامل عبور کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "When the yellow light is flashing and you did not stop first",
+          "fa": "وقتی چراغ زرد چشمک‌زن است و ابتدا توقف نکرده‌اید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "When the light is yellow and you cannot stop safely",
+          "fa": "وقتی چراغ زرد است و نمی‌توانید ایمن توقف کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Whenever traffic is heavy, even if your lane is clear",
+          "fa": "هر وقت ترافیک سنگین است، حتی اگر مسیر شما باز باشد",
+          "correct": false
+        }
+      ],
+      "explanationEn": "When you cannot get completely across before the light turns red",
+      "explanationFa": "وقتی نمی‌توانید قبل از قرمز شدن چراغ کامل عبور کنید",
+      "sourcePage": 6
+    },
+    {
+      "id": 343,
+      "category": "Parking Lights",
+      "questionEn": "When may you legally drive using only parking lights?",
+      "questionFa": "چه زمانی می‌توانید فقط با چراغ‌های پارکینگ رانندگی کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Under no circumstances",
+          "fa": "تحت هیچ شرایطی",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "30 minutes after sunset until 30 minutes before sunrise",
+          "fa": "۳۰ دقیقه بعد از غروب تا ۳۰ دقیقه قبل از طلوع",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "In fog when visibility is low",
+          "fa": "در مه وقتی دید کم است",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only in a parking lot",
+          "fa": "فقط در پارکینگ",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Under no circumstances",
+      "explanationFa": "تحت هیچ شرایطی",
+      "sourcePage": 6
+    },
+    {
+      "id": 344,
+      "category": "No Parking",
+      "questionEn": "Where may you never park?",
+      "questionFa": "در کجا هیچ‌وقت نباید پارک کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Next to a red curb",
+          "fa": "کنار جدول قرمز",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Next to a yellow curb",
+          "fa": "کنار جدول زرد",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "In front of a school when students are present",
+          "fa": "جلوی مدرسه وقتی شاگردان هستند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Near a green curb within time limit",
+          "fa": "کنار جدول سبز در محدوده زمان مجاز",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Next to a red curb",
+      "explanationFa": "کنار جدول قرمز",
+      "sourcePage": 6
+    },
+    {
+      "id": 345,
+      "category": "Lane Changes",
+      "questionEn": "Which is the correct way to change lanes?",
+      "questionFa": "روش درست برای تغییر خط کدام است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Signal, check mirrors, and look over your shoulder before changing lanes",
+          "fa": "راهنما بزنید، آینه‌ها را بررسی کنید و قبل از تغییر خط از روی شانه نگاه کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Signal, check mirrors, then change lanes",
+          "fa": "راهنما بزنید، آینه‌ها را بررسی کنید، سپس خط عوض کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Look in mirrors and over shoulder, then change lanes without signaling",
+          "fa": "آینه‌ها و شانه را نگاه کنید و بدون راهنما خط عوض کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Change lanes quickly before checking blind spots",
+          "fa": "قبل از بررسی نقطه کور سریع خط عوض کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Signal, check mirrors, and look over your shoulder before changing lanes",
+      "explanationFa": "راهنما بزنید، آینه‌ها را بررسی کنید و قبل از تغییر خط از روی شانه نگاه کنید",
+      "sourcePage": 7
+    },
+    {
+      "id": 346,
+      "category": "Following Distance",
+      "questionEn": "When should you increase your following distance?",
+      "questionFa": "چه زمانی باید فاصله خود را با خودروی جلو افزایش دهید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "When the driver behind you is following too closely",
+          "fa": "وقتی راننده پشت سر خیلی نزدیک حرکت می‌کند",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "When you are behind a small passenger car",
+          "fa": "وقتی پشت یک خودروی سواری کوچک هستید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "When you are driving slower than the speed limit",
+          "fa": "وقتی آهسته‌تر از حد مجاز حرکت می‌کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only when driving at night",
+          "fa": "فقط هنگام رانندگی در شب",
+          "correct": false
+        }
+      ],
+      "explanationEn": "When the driver behind you is following too closely",
+      "explanationFa": "وقتی راننده پشت سر خیلی نزدیک حرکت می‌کند",
+      "sourcePage": 7
+    },
+    {
+      "id": 347,
+      "category": "Minimum Speed",
+      "questionEn": "Can you get a ticket for driving 55 mph in the far-left lane on a 65 mph freeway?",
+      "questionFa": "آیا ممکن است برای رانندگی با ۵۵ مایل در ساعت در خط چپ آزادراه ۶۵ مایل جریمه شوید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Yes, if you block the normal and reasonable flow of traffic",
+          "fa": "بله، اگر جریان معمولی و منطقی ترافیک را مسدود کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "No, because slower is always safer",
+          "fa": "خیر، چون آهسته‌تر همیشه ایمن‌تر است",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only if road or weather conditions require that speed",
+          "fa": "فقط اگر شرایط جاده یا هوا آن سرعت را لازم بداند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Never, if you are below the speed limit",
+          "fa": "هرگز، اگر زیر حد سرعت باشید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Yes, if you block the normal and reasonable flow of traffic",
+      "explanationFa": "بله، اگر جریان معمولی و منطقی ترافیک را مسدود کنید",
+      "sourcePage": 7
+    },
+    {
+      "id": 348,
+      "category": "Left Turns",
+      "questionEn": "If you are stopped to turn left and oncoming cars are approaching, what should you do?",
+      "questionFa": "اگر توقف کرده‌اید تا به چپ بپیچید و خودروهای روبه‌رو نزدیک می‌شوند، چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Yield to the approaching vehicles",
+          "fa": "به خودروهای نزدیک‌شونده حق تقدم بدهید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Signal and turn immediately",
+          "fa": "راهنما بزنید و فوراً بپیچید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Take the right-of-way by turning in front of them",
+          "fa": "با پیچیدن جلوی آن‌ها حق تقدم را بگیرید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Honk and turn",
+          "fa": "بوق بزنید و بپیچید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Yield to the approaching vehicles",
+      "explanationFa": "به خودروهای نزدیک‌شونده حق تقدم بدهید",
+      "sourcePage": 7
+    },
+    {
+      "id": 349,
+      "category": "Blind Spots",
+      "questionEn": "Which statement about blind spots is true?",
+      "questionFa": "کدام عبارت درباره نقاط کور درست است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Look over your left shoulder for a left lane change and over your right shoulder for a right lane change",
+          "fa": "برای تغییر خط به چپ از شانه چپ و برای تغییر خط به راست از شانه راست نگاه کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Only look over your shoulder and do not check mirrors",
+          "fa": "فقط از روی شانه نگاه کنید و آینه‌ها را بررسی نکنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Cars with two outside mirrors have no blind spots",
+          "fa": "خودروهای دارای دو آینه بیرونی نقطه کور ندارند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Blind spots only matter at night",
+          "fa": "نقاط کور فقط در شب مهم هستند",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Look over your left shoulder for a left lane change and over your right shoulder for a right lane change",
+      "explanationFa": "برای تغییر خط به چپ از شانه چپ و برای تغییر خط به راست از شانه راست نگاه کنید",
+      "sourcePage": 7
+    },
+    {
+      "id": 350,
+      "category": "Collision Reporting",
+      "questionEn": "When must you file a written SR 1 report with DMV?",
+      "questionFa": "چه زمانی باید گزارش کتبی ‎SR 1‎ را به ‎DMV‎ ارائه کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "When you have a collision involving injury",
+          "fa": "وقتی تصادفی داشته‌اید که آسیب بدنی وجود دارد",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "When your vehicle fails a smog test",
+          "fa": "وقتی خودرو در آزمایش دود قبول نشده است",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "When you change insurance companies",
+          "fa": "وقتی شرکت بیمه خود را تغییر می‌دهید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only when police tell you to",
+          "fa": "فقط وقتی پلیس از شما بخواهد",
+          "correct": false
+        }
+      ],
+      "explanationEn": "When you have a collision involving injury",
+      "explanationFa": "وقتی تصادفی داشته‌اید که آسیب بدنی وجود دارد",
+      "sourcePage": 7
+    },
+    {
+      "id": 351,
+      "category": "Blind Pedestrians",
+      "questionEn": "When approaching a crosswalk where a blind person is waiting, how should you stop?",
+      "questionFa": "هنگام نزدیک شدن به خط عابر که یک شخص نابینا منتظر است، چگونه باید توقف کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Stop more than 5 feet from the crosswalk",
+          "fa": "بیشتر از ۵ فوت دورتر از خط عابر توقف کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Stop at the crosswalk line and tell the person when to cross",
+          "fa": "سر خط عابر توقف کنید و به شخص بگویید چه وقت عبور کند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Stop on the crosswalk so the pedestrian can hear you",
+          "fa": "روی خط عابر توقف کنید تا عابر صدای شما را بشنود",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Do not stop unless the person steps into the road",
+          "fa": "توقف نکنید مگر اینکه شخص وارد جاده شود",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Stop more than 5 feet from the crosswalk",
+      "explanationFa": "بیشتر از ۵ فوت دورتر از خط عابر توقف کنید",
+      "sourcePage": 7
+    },
+    {
+      "id": 352,
+      "category": "Center Left Turn Lane",
+      "questionEn": "What is the center left turn lane used for?",
+      "questionFa": "خط وسط گردش به چپ برای چه استفاده می‌شود؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "To start or end a permitted left turn or U-turn",
+          "fa": "برای شروع یا پایان گردش به چپ یا دور زدن مجاز",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "As a regular lane when traffic is heavy",
+          "fa": "به عنوان خط معمولی وقتی ترافیک سنگین است",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "To pass slower vehicles",
+          "fa": "برای سبقت از خودروهای کندتر",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "For parking during rush hour",
+          "fa": "برای پارک در ساعات شلوغ",
+          "correct": false
+        }
+      ],
+      "explanationEn": "To start or end a permitted left turn or U-turn",
+      "explanationFa": "برای شروع یا پایان گردش به چپ یا دور زدن مجاز",
+      "sourcePage": 7
+    },
+    {
+      "id": 353,
+      "category": "Legal Parking",
+      "questionEn": "Where may you legally park?",
+      "questionFa": "کجا می‌توانید به طور قانونی پارک کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "On the side of a highway in an emergency",
+          "fa": "کنار بزرگراه در موارد اضطراری",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "In an unmarked crosswalk area",
+          "fa": "در محل عبور عابر که مشخص نشده باشد",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "On the roadside facing against traffic",
+          "fa": "کنار جاده رو به خلاف جریان ترافیک",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "In front of a driveway",
+          "fa": "جلوی ورودی ساختمان/گاراژ",
+          "correct": false
+        }
+      ],
+      "explanationEn": "On the side of a highway in an emergency",
+      "explanationFa": "کنار بزرگراه در موارد اضطراری",
+      "sourcePage": 8
+    },
+    {
+      "id": 354,
+      "category": "Speed Limits",
+      "questionEn": "Unless otherwise posted, what is the speed limit in a residential district?",
+      "questionFa": "مگر اینکه خلاف آن نصب شده باشد، سرعت مجاز در منطقه مسکونی چقدر است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "30 mph",
+          "fa": "۳۰ مایل در ساعت",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "35 mph",
+          "fa": "۳۵ مایل در ساعت",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "45 mph",
+          "fa": "۴۵ مایل در ساعت",
+          "correct": false
+        }
+      ],
+      "explanationEn": "25 mph",
+      "explanationFa": "۲۵ مایل در ساعت",
+      "sourcePage": 8
+    },
+    {
+      "id": 355,
+      "category": "Motorcycles",
+      "questionEn": "Which statement about motorcycles is true?",
+      "questionFa": "کدام عبارت درباره موتورسیکلت‌ها درست است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "You should follow motorcycles at a greater distance",
+          "fa": "باید با فاصله بیشتری پشت موتورسیکلت‌ها حرکت کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Motorcycles are small and easy for drivers to see",
+          "fa": "موتورسیکلت‌ها کوچک‌اند و به‌راحتی دیده می‌شوند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Motorcycles may not use traffic lanes",
+          "fa": "موتورسیکلت‌ها نمی‌توانند در خطوط ترافیک حرکت کنند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Motorcycles always stop faster than cars",
+          "fa": "موتورسیکلت‌ها همیشه سریع‌تر از خودروها توقف می‌کنند",
+          "correct": false
+        }
+      ],
+      "explanationEn": "You should follow motorcycles at a greater distance",
+      "explanationFa": "باید با فاصله بیشتری پشت موتورسیکلت‌ها حرکت کنید",
+      "sourcePage": 8
+    },
+    {
+      "id": 356,
+      "category": "Large Trucks",
+      "questionEn": "Which statement about large trucks is true?",
+      "questionFa": "کدام عبارت درباره کامیون‌های بزرگ درست است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "They need more time to stop than passenger cars",
+          "fa": "نسبت به خودروهای سواری برای توقف به زمان بیشتری نیاز دارند",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Air brakes let them stop very quickly",
+          "fa": "ترمز بادی باعث می‌شود خیلی سریع توقف کنند",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "They are more maneuverable than passenger cars",
+          "fa": "قابلیت مانور بیشتری از خودروهای سواری دارند",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "They have no blind spots",
+          "fa": "نقطه کور ندارند",
+          "correct": false
+        }
+      ],
+      "explanationEn": "They need more time to stop than passenger cars",
+      "explanationFa": "نسبت به خودروهای سواری برای توقف به زمان بیشتری نیاز دارند",
+      "sourcePage": 8
+    },
+    {
+      "id": 357,
+      "category": "Double Yellow Lines",
+      "questionEn": "Solid parallel yellow lines two feet or more apart should be treated as what?",
+      "questionFa": "خطوط زرد ممتد موازی که دو فوت یا بیشتر از هم فاصله دارند باید مانند چه چیزی در نظر گرفته شوند؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "A wall or barrier you must not cross",
+          "fa": "مانند دیوار یا مانعی که نباید از آن عبور کرد",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "A place only for left turns or U-turns",
+          "fa": "محلی فقط برای گردش به چپ یا دور زدن",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "A place to start or finish a left turn",
+          "fa": "محلی برای شروع یا پایان گردش به چپ",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "A bike lane separator",
+          "fa": "جداکننده خط دوچرخه",
+          "correct": false
+        }
+      ],
+      "explanationEn": "A wall or barrier you must not cross",
+      "explanationFa": "مانند دیوار یا مانعی که نباید از آن عبور کرد",
+      "sourcePage": 8
+    },
+    {
+      "id": 358,
+      "category": "Flashing Yellow Signal",
+      "questionEn": "What should you do at an intersection with a flashing yellow light?",
+      "questionFa": "در تقاطع با چراغ زرد چشمک‌زن چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Slow down and proceed carefully",
+          "fa": "سرعت را کم کنید و با احتیاط عبور کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Maintain your speed but watch for others",
+          "fa": "سرعت خود را حفظ کنید ولی مواظب دیگران باشید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Stop before crossing",
+          "fa": "قبل از عبور توقف کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Treat it like a red arrow",
+          "fa": "مانند فلش قرمز با آن رفتار کنید",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Slow down and proceed carefully",
+      "explanationFa": "سرعت را کم کنید و با احتیاط عبور کنید",
+      "sourcePage": 8
+    },
+    {
+      "id": 359,
+      "category": "Pickup Trucks",
+      "questionEn": "When may a person legally ride in the back of a pickup truck?",
+      "questionFa": "چه زمانی شخص می‌تواند به طور قانونی در پشت وانت باری سوار شود؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "When seated in secured seats with approved safety belts",
+          "fa": "وقتی روی صندلی‌های ایمن با کمربندهای تأییدشده نشسته باشد",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "When the sides are at least 24 inches high",
+          "fa": "وقتی بغل‌های وانت حداقل ۲۴ اینچ ارتفاع داشته باشد",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "When the truck bed is covered with a shell",
+          "fa": "وقتی پشت وانت با اتاقک پوشانده شده باشد",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Whenever the trip is short",
+          "fa": "هر وقت مسیر کوتاه باشد",
+          "correct": false
+        }
+      ],
+      "explanationEn": "When seated in secured seats with approved safety belts",
+      "explanationFa": "وقتی روی صندلی‌های ایمن با کمربندهای تأییدشده نشسته باشد",
+      "sourcePage": 8
+    },
+    {
+      "id": 360,
+      "category": "Backing",
+      "questionEn": "Safe backing includes which action?",
+      "questionFa": "دنده عقب رفتن ایمن شامل کدام کار است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Looking back over your right shoulder while backing",
+          "fa": "هنگام عقب رفتن از روی شانه راست به عقب نگاه کردن",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Honking before every backing movement",
+          "fa": "قبل از هر دنده عقب بوق زدن",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only checking behind the car before getting in",
+          "fa": "فقط قبل از سوار شدن پشت خودرو را بررسی کردن",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Backing quickly to avoid traffic",
+          "fa": "برای دوری از ترافیک سریع عقب رفتن",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Looking back over your right shoulder while backing",
+      "explanationFa": "هنگام عقب رفتن از روی شانه راست به عقب نگاه کردن",
+      "sourcePage": 8
+    },
+    {
+      "id": 361,
+      "category": "Pedestrians",
+      "questionEn": "At a red light, you want to turn right and a pedestrian is waiting on your right to cross the street you will enter. Who has the right-of-way when your light turns green?",
+      "questionFa": "پشت چراغ قرمز منتظر گردش راست هستید و عابر پیاده در سمت راست منتظر عبور از خیابانی است که وارد آن می‌شوید. وقتی چراغ شما سبز شد، حق تقدم با کیست؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "The pedestrian has the right-of-way",
+          "fa": "عابر پیاده حق تقدم دارد",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "You have the right-of-way only if there is no marked crosswalk",
+          "fa": "فقط اگر خط عابر مشخص نباشد، شما حق تقدم دارید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "You have the right-of-way because your light is green",
+          "fa": "چون چراغ شما سبز است، شما حق تقدم دارید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Whoever moves first has the right-of-way",
+          "fa": "هر کسی اول حرکت کند حق تقدم دارد",
+          "correct": false
+        }
+      ],
+      "explanationEn": "The pedestrian has the right-of-way",
+      "explanationFa": "عابر پیاده حق تقدم دارد",
+      "sourcePage": 8
+    },
+    {
+      "id": 362,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign means the road is closed?",
+      "questionFa": "کدام علامت یعنی جاده مسدود است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "closed-no-thru-traffic.png",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "right-lane-must-turn-right.png",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "road-narrows.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "CLOSED / NO THRU TRAFFIC sign",
+      "explanationFa": "علامت ‎CLOSED / NO THRU TRAFFIC‎",
+      "sourcePage": 13,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 363,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign tells you there are multiple railroad tracks?",
+      "questionFa": "کدام علامت می‌گوید چند خط راه‌آهن وجود دارد؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "3-way-signal.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "3-tracks.png",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "stop-ahead.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "3 TRACKS sign",
+      "explanationFa": "علامت ‎3 TRACKS‎",
+      "sourcePage": 13,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 364,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign means no left or right turns?",
+      "questionFa": "کدام علامت یعنی گردش به چپ یا راست نکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "no-turns.png",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "left-turn-ahead.png",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "no-right-turn.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "NO TURNS sign",
+      "explanationFa": "علامت ‎NO TURNS‎",
+      "sourcePage": 13,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 365,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign means the shoulder is soft?",
+      "questionFa": "کدام علامت یعنی کنار جاده نرم است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "lane-ends-merge-left.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "soft-shoulder.png",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "slide-area.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "SOFT SHOULDER sign",
+      "explanationFa": "علامت ‎SOFT SHOULDER‎",
+      "sourcePage": 13,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 366,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign tells you a traffic signal is ahead?",
+      "questionFa": "کدام علامت می‌گوید چراغ راهنمایی در پیش است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "no-turns.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "traffic-signal-ahead.png",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "two-way-traffic-ahead.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Traffic signal ahead sign",
+      "explanationFa": "علامت چراغ راهنمایی در پیش",
+      "sourcePage": 13,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 367,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign tells slow traffic to let faster vehicles pass?",
+      "questionFa": "کدام علامت به ترافیک آهسته می‌گوید به خودروهای سریع‌تر اجازه عبور بدهد؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "slower-traffic-use-turnouts.png",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "detour.png",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "slide-area.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "SLOWER TRAFFIC USE TURNOUTS sign",
+      "explanationFa": "علامت ‎SLOWER TRAFFIC USE TURNOUTS‎",
+      "sourcePage": 14,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 368,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign tells you to change your route?",
+      "questionFa": "کدام علامت می‌گوید مسیر خود را تغییر دهید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "no-turns.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "do-not-pass.png",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "detour.png",
+          "correct": true
+        }
+      ],
+      "explanationEn": "DETOUR sign",
+      "explanationFa": "علامت ‎DETOUR‎",
+      "sourcePage": 14,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 369,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign tells you vehicles enter traffic from the right?",
+      "questionFa": "کدام علامت می‌گوید خودروها از سمت راست وارد ترافیک می‌شوند؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "pavement-ends.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "lane-merge.png",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "two-way-traffic.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Merging traffic from the right sign",
+      "explanationFa": "علامت ورود/ادغام ترافیک از سمت راست",
+      "sourcePage": 14,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 370,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign means the road narrows ahead?",
+      "questionFa": "کدام علامت یعنی جاده در پیش باریک‌تر می‌شود؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "divided-road-ends.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "right-lane-must-turn-right.png",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "road-narrows.png",
+          "correct": true
+        }
+      ],
+      "explanationEn": "ROAD NARROWS sign",
+      "explanationFa": "علامت ‎ROAD NARROWS‎",
+      "sourcePage": 14,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 371,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign tells you a left turn is ahead?",
+      "questionFa": "کدام علامت می‌گوید گردش به چپ در پیش است؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "lane-merge.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "left-turn-ahead.png",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "no-u-turn.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Left turn arrow warning sign",
+      "explanationFa": "علامت هشدار گردش به چپ",
+      "sourcePage": 14,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 372,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign means the road is slippery when wet?",
+      "questionFa": "کدام علامت یعنی وقتی جاده خیس است لغزنده می‌شود؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "divided-road-ends.png",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "slide-area.png",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "slippery-when-wet.png",
+          "correct": true
+        }
+      ],
+      "explanationEn": "SLIPPERY WHEN WET sign",
+      "explanationFa": "علامت ‎SLIPPERY WHEN WET‎",
+      "sourcePage": 14,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 373,
+      "category": "Traffic Signs",
+      "questionEn": "Which sign tells you workers are ahead?",
+      "questionFa": "کدام علامت می‌گوید کارگران در پیش مشغول کارند؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "1",
+          "fa": "۱",
+          "image": "men-working.png",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "fa": "۲",
+          "image": "emergency-parking-only.png",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "3",
+          "fa": "۳",
+          "image": "two-way-traffic-ahead.png",
+          "correct": false
+        }
+      ],
+      "explanationEn": "MEN WORKING sign",
+      "explanationFa": "علامت ‎MEN WORKING‎",
+      "sourcePage": 14,
+      "questionType": "imageChoices"
+    },
+    {
+      "id": 374,
+      "category": "Behind-the-Wheel Test",
+      "questionEn": "When should you schedule your behind-the-wheel driving test appointment?",
+      "questionFa": "چه زمانی باید وقت آزمون عملی رانندگی را تنظیم کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "After passing the written knowledge test",
+          "fa": "بعد از قبول شدن در آزمون کتبی/دانش",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Before taking the written test",
+          "fa": "قبل از آزمون کتبی",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only after buying a new car",
+          "fa": "فقط بعد از خرید خودروی جدید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only after getting a traffic ticket",
+          "fa": "فقط بعد از گرفتن جریمه رانندگی",
+          "correct": false
+        }
+      ],
+      "explanationEn": "After passing the written knowledge test",
+      "explanationFa": "بعد از قبول شدن در آزمون کتبی/دانش",
+      "sourcePage": 15
+    },
+    {
+      "id": 375,
+      "category": "Behind-the-Wheel Test",
+      "questionEn": "What should you check on your vehicle before the drive test?",
+      "questionFa": "قبل از آزمون عملی، چه چیزهایی را در خودرو باید بررسی کنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Horn, brakes, brake lights, headlights, turn signals, and parking brake",
+          "fa": "بوق، ترمزها، چراغ ترمز، چراغ‌ها، راهنماها و ترمز دستی",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Only the radio and air conditioning",
+          "fa": "فقط رادیو و کولر",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Only the paint color",
+          "fa": "فقط رنگ خودرو",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Only the seat covers",
+          "fa": "فقط روکش صندلی‌ها",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Horn, brakes, brake lights, headlights, turn signals, and parking brake",
+      "explanationFa": "بوق، ترمزها، چراغ ترمز، چراغ‌ها، راهنماها و ترمز دستی",
+      "sourcePage": 15
+    },
+    {
+      "id": 376,
+      "category": "Behind-the-Wheel Test",
+      "questionEn": "During the drive test, what should you do when changing lanes?",
+      "questionFa": "در آزمون عملی هنگام تغییر خط چه باید بکنید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Check mirrors and look over your shoulder",
+          "fa": "آینه‌ها را بررسی کنید و از روی شانه نگاه کنید",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "Only use the rearview mirror",
+          "fa": "فقط از آینه عقب استفاده کنید",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "Change lanes quickly without signaling",
+          "fa": "بدون راهنما سریع خط عوض کنید",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "Ask the examiner to check traffic for you",
+          "fa": "از ممتحن بخواهید ترافیک را برای شما بررسی کند",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Check mirrors and look over your shoulder",
+      "explanationFa": "آینه‌ها را بررسی کنید و از روی شانه نگاه کنید",
+      "sourcePage": 15
+    },
+    {
+      "id": 377,
+      "category": "Behind-the-Wheel Test",
+      "questionEn": "Which item may the examiner ask you to demonstrate before driving?",
+      "questionFa": "ممتحن قبل از شروع حرکت ممکن است از شما بخواهد کدام مورد را نشان دهید؟",
+      "image": null,
+      "imageSourceUrl": null,
+      "answers": [
+        {
+          "id": "A",
+          "en": "Turn signals, headlights, hazard lights, or parking brake",
+          "fa": "راهنماها، چراغ‌ها، چراغ اضطراری یا ترمز دستی",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "en": "How to change a tire",
+          "fa": "تعویض تایر",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "en": "How to fill gas",
+          "fa": "بنزین زدن",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "en": "How to wash the windshield",
+          "fa": "شستن شیشه جلو",
+          "correct": false
+        }
+      ],
+      "explanationEn": "Turn signals, headlights, hazard lights, or parking brake",
+      "explanationFa": "راهنماها، چراغ‌ها، چراغ اضطراری یا ترمز دستی",
+      "sourcePage": 15
     }
   ]
 }

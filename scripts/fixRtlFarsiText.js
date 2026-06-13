@@ -6,7 +6,7 @@
  * characters (U+200E) so they display correctly in RTL contexts.
  *
  * Usage:  node scripts/fixRtlFarsiText.js
- * Output: src/data/california_dmv_farsi_questions_300_rtl_fixed.json
+ * Output: src/data/california_dmv_farsi_questions.json
  */
 
 const fs = require("fs");
@@ -14,11 +14,11 @@ const path = require("path");
 
 const INPUT_FILE = path.resolve(
   __dirname,
-  "../src/data/california_dmv_farsi_questions_300.json",
+  "../src/data/california_dmv_farsi_questions.json",
 );
 const OUTPUT_FILE = path.resolve(
   __dirname,
-  "../src/data/california_dmv_farsi_questions_300_rtl_fixed.json",
+  "../src/data/california_dmv_farsi_questions_rtl_fixed.json",
 );
 
 const LRM = "\u200E";

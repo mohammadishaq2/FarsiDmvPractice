@@ -15,6 +15,7 @@ import {
 
 import { AppHeader } from "../components/AppHeader";
 import { EmptyState } from "../components/EmptyState";
+import { ImageAnswerOption } from "../components/ImageAnswerOption";
 import { PrimaryButton } from "../components/PrimaryButton";
 import { ProgressBar } from "../components/ProgressBar";
 import { borderRadius, colors, shadows, spacing } from "../constants/theme";
@@ -139,6 +140,8 @@ export default function PracticeScreen() {
     (currentQuestion?.image?.startsWith("http") ? currentQuestion.image : null);
   const progress =
     totalQuestions > 0 ? ((currentIndex + 1) / totalQuestions) * 100 : 0;
+  const questionType = currentQuestion?.questionType ?? "textChoices";
+  const isImageChoicesQuestion = questionType === "imageChoices";
   const correctAnswerId = currentQuestion?.answers.find(
     (answer) => answer.correct,
   )?.id;
@@ -439,26 +442,58 @@ export default function PracticeScreen() {
           ) : null}
         </View>
 
-        <View style={styles.answersWrap}>
-          {currentQuestion.answers.map((answer) => (
-            <Pressable
-              key={answer.id}
-              style={({ pressed }) => [
-                styles.answerCard,
-                getAnswerCardStyle(answer.id),
-                pressed && !isSubmitted ? styles.pressed : null,
-              ]}
-              onPress={() => {
-                void handleAnswerPress(answer.id);
-              }}
-            >
-              <View style={styles.answerTopRow}>
-                <Text style={styles.answerLabel}>{answer.id}.</Text>
-                <Text style={styles.answerEn}>{answer.en}</Text>
-              </View>
-              <Text style={styles.answerFa}>{answer.fa}</Text>
-            </Pressable>
-          ))}
+        <View
+          style={
+            isImageChoicesQuestion ? styles.imageAnswersWrap : styles.answersWrap
+          }
+        >
+          {currentQuestion.answers.map((answer) => {
+            if (isImageChoicesQuestion) {
+              const answerImageKey = extractImageKey(answer.image ?? null);
+              const answerImageSource = answerImageKey
+                ? signImages[answerImageKey]
+                : undefined;
+
+              return (
+                <ImageAnswerOption
+                  key={answer.id}
+                  imageSource={answerImageSource}
+                  enLabel={answer.en}
+                  faLabel={answer.fa}
+                  isSelected={selectedAnswerId === answer.id}
+                  isCorrect={Boolean(isSubmitted && answer.id === correctAnswerId)}
+                  isWrong={Boolean(
+                    isSubmitted &&
+                      selectedAnswerId === answer.id &&
+                      answer.id !== correctAnswerId,
+                  )}
+                  onPress={() => {
+                    void handleAnswerPress(answer.id);
+                  }}
+                />
+              );
+            }
+
+            return (
+              <Pressable
+                key={answer.id}
+                style={({ pressed }) => [
+                  styles.answerCard,
+                  getAnswerCardStyle(answer.id),
+                  pressed && !isSubmitted ? styles.pressed : null,
+                ]}
+                onPress={() => {
+                  void handleAnswerPress(answer.id);
+                }}
+              >
+                <View style={styles.answerTopRow}>
+                  <Text style={styles.answerLabel}>{answer.id}.</Text>
+                  <Text style={styles.answerEn}>{answer.en}</Text>
+                </View>
+                <Text style={styles.answerFa}>{answer.fa}</Text>
+              </Pressable>
+            );
+          })}
         </View>
 
         {isSubmitted ? (
@@ -634,6 +669,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#EAF2FB",
   },
   answersWrap: {
+    gap: 10,
+  },
+  imageAnswersWrap: {
+    flexDirection: "row",
+    flexWrap: "wrap",
     gap: 10,
   },
   answerCard: {

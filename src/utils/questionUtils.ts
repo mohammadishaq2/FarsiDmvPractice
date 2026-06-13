@@ -1,15 +1,17 @@
-import dmvQuestionsJson from "../data/california_dmv_farsi_questions_300_rtl_fixed.json";
+import dmvQuestionsJson from "../data/california_dmv_farsi_questions.json";
 
 export type DmvQuestionAnswer = {
   id: string;
   en: string;
   fa: string;
+  image?: string | null;
   correct: boolean;
 };
 
 export type DmvQuestion = {
   id: number;
   category: string;
+  questionType?: "textChoices" | "imageChoices" | string;
   questionEn: string;
   questionFa: string;
   image: string | null;
