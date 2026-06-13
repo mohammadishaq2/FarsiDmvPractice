@@ -13886,7 +13886,7 @@
         {
           "id": "D",
           "en": "Ask the examiner to check traffic for you",
-          "fa": "از ممتحن بخواهید ترافیک را برای شما بررسی کند",
+          "fa": "از آزمونگیر (امتحان گیرنده-ممتحن) بخواهید ترافیک را برای شما بررسی کند",
           "correct": false
         }
       ],
@@ -13898,7 +13898,7 @@
       "id": 377,
       "category": "Behind-the-Wheel Test",
       "questionEn": "Which item may the examiner ask you to demonstrate before driving?",
-      "questionFa": "ممتحن قبل از شروع حرکت ممکن است از شما بخواهد کدام مورد را نشان دهید؟",
+      "questionFa": "آزمونگیر (امتحان گیرنده-ممتحن) قبل از شروع حرکت ممکن است از شما بخواهد کدام مورد را نشان دهید؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
