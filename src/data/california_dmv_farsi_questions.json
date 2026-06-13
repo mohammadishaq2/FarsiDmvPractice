@@ -361,7 +361,7 @@
         },
         {
           "en": "You only need to signal when another driver honks.",
-          "fa": "فقط وقتی راننده دیگری بوق می‌زند باید راهنما بزنید.",
+          "fa": "فقط وقتی راننده دیگری هارن (بوق) می‌زند باید راهنما بزنید.",
           "correct": false,
           "id": "C"
         },
@@ -386,7 +386,7 @@
       "answers": [
         {
           "en": "You only need to signal when another driver honks.",
-          "fa": "فقط وقتی راننده دیگری بوق می‌زند باید راهنما بزنید.",
+          "fa": "فقط وقتی راننده دیگری هارن (بوق) می‌زند باید راهنما بزنید.",
           "correct": false,
           "id": "A"
         },
@@ -417,37 +417,37 @@
       "id": 12,
       "category": "Horn",
       "questionEn": "What is the correct rule about using the horn?",
-      "questionFa": "قانون درست درباره استفاده از بوق چیست؟",
+      "questionFa": "قانون درست درباره استفاده از هارن (بوق) چیست؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Use your horn to avoid collisions or warn others of a hazard.",
-          "fa": "از بوق برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
+          "fa": "از هارن (بوق) برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
           "correct": true,
           "id": "A"
         },
         {
           "en": "Use your horn to hurry slow drivers.",
-          "fa": "برای عجله دادن به رانندگان کند از بوق استفاده کنید.",
+          "fa": "برای عجله دادن به رانندگان کند از هارن (بوق) استفاده کنید.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "Use your horn to show anger.",
-          "fa": "برای نشان دادن عصبانیت از بوق استفاده کنید.",
+          "fa": "برای نشان دادن عصبانیت از هارن (بوق) استفاده کنید.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "Use your horn instead of braking.",
-          "fa": "به جای ترمز کردن از بوق استفاده کنید.",
+          "fa": "به جای ترمز کردن از هارن (بوق) استفاده کنید.",
           "correct": false,
           "id": "D"
         }
       ],
       "explanationEn": "Use your horn to avoid collisions or warn others of a hazard.",
-      "explanationFa": "از بوق برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
+      "explanationFa": "از هارن (بوق) برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
       "sourcePage": 4
     },
     {
@@ -5757,7 +5757,7 @@
         },
         {
           "en": "You only need to signal when another driver honks.",
-          "fa": "فقط وقتی راننده دیگری بوق می‌زند باید راهنما بزنید.",
+          "fa": "فقط وقتی راننده دیگری هارن (بوق) می‌زند باید راهنما بزنید.",
           "correct": false,
           "id": "B"
         },
@@ -5819,37 +5819,37 @@
       "id": 158,
       "category": "Horn",
       "questionEn": "Which statement is true about using the horn?",
-      "questionFa": "کدام جمله درباره استفاده از بوق درست است؟",
+      "questionFa": "کدام جمله درباره استفاده از هارن (بوق) درست است؟",
       "image": null,
       "imageSourceUrl": null,
       "answers": [
         {
           "en": "Use your horn whenever traffic is heavy.",
-          "fa": "هر وقت ترافیک سنگین است از بوق استفاده کنید.",
+          "fa": "هر وقت ترافیک سنگین است از هارن (بوق) استفاده کنید.",
           "correct": false,
           "id": "A"
         },
         {
           "en": "Use your horn to hurry slow drivers.",
-          "fa": "برای عجله دادن به رانندگان کند از بوق استفاده کنید.",
+          "fa": "برای عجله دادن به رانندگان کند از هارن (بوق) استفاده کنید.",
           "correct": false,
           "id": "B"
         },
         {
           "en": "Never use your horn to warn about danger.",
-          "fa": "هرگز برای هشدار درباره خطر از بوق استفاده نکنید.",
+          "fa": "هرگز برای هشدار درباره خطر از هارن (بوق) استفاده نکنید.",
           "correct": false,
           "id": "C"
         },
         {
           "en": "Use your horn to avoid collisions or warn others of a hazard.",
-          "fa": "از بوق برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
+          "fa": "از هارن (بوق) برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
           "correct": true,
           "id": "D"
         }
       ],
       "explanationEn": "Use your horn to avoid collisions or warn others of a hazard.",
-      "explanationFa": "از بوق برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
+      "explanationFa": "از هارن (بوق) برای جلوگیری از تصادف یا هشدار درباره خطر استفاده کنید.",
       "sourcePage": 4
     },
     {
@@ -11678,7 +11678,7 @@
         {
           "id": "B",
           "en": "Honk and keep your speed",
-          "fa": "بوق بزنید و سرعت خود را حفظ کنید",
+          "fa": "هارن (بوق) بزنید و سرعت خود را حفظ کنید",
           "correct": false
         },
         {
@@ -11758,7 +11758,7 @@
         {
           "id": "C",
           "en": "Honk to tell the pedestrian when to cross",
-          "fa": "بوق بزنید تا به عابر بگویید چه وقت عبور کند",
+          "fa": "هارن (بوق) بزنید تا به عابر بگویید چه وقت عبور کند",
           "correct": false
         },
         {
@@ -12874,7 +12874,7 @@
         {
           "id": "D",
           "en": "Honk and turn",
-          "fa": "بوق بزنید و بپیچید",
+          "fa": "هارن (بوق) بزنید و بپیچید",
           "correct": false
         }
       ],
@@ -13306,7 +13306,7 @@
         {
           "id": "B",
           "en": "Honking before every backing movement",
-          "fa": "قبل از هر دنده عقب بوق زدن",
+          "fa": "قبل از هر دنده عقب هارن (بوق) زدن",
           "correct": false
         },
         {
@@ -13831,7 +13831,7 @@
         {
           "id": "A",
           "en": "Horn, brakes, brake lights, headlights, turn signals, and parking brake",
-          "fa": "بوق، ترمزها، چراغ ترمز، چراغ‌ها، راهنماها و ترمز دستی",
+          "fa": "هارن (بوق)، ترمزها، چراغ ترمز، چراغ‌ها، راهنماها و ترمز دستی",
           "correct": true
         },
         {
@@ -13854,7 +13854,7 @@
         }
       ],
       "explanationEn": "Horn, brakes, brake lights, headlights, turn signals, and parking brake",
-      "explanationFa": "بوق، ترمزها، چراغ ترمز، چراغ‌ها، راهنماها و ترمز دستی",
+      "explanationFa": "هارن (بوق)، ترمزها، چراغ ترمز، چراغ‌ها، راهنماها و ترمز دستی",
       "sourcePage": 15
     },
     {
