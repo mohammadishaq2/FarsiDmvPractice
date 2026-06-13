@@ -444,7 +444,9 @@ export default function PracticeScreen() {
 
         <View
           style={
-            isImageChoicesQuestion ? styles.imageAnswersWrap : styles.answersWrap
+            isImageChoicesQuestion
+              ? styles.imageAnswersWrap
+              : styles.answersWrap
           }
         >
           {currentQuestion.answers.map((answer) => {
@@ -461,11 +463,13 @@ export default function PracticeScreen() {
                   enLabel={answer.en}
                   faLabel={answer.fa}
                   isSelected={selectedAnswerId === answer.id}
-                  isCorrect={Boolean(isSubmitted && answer.id === correctAnswerId)}
+                  isCorrect={Boolean(
+                    isSubmitted && answer.id === correctAnswerId,
+                  )}
                   isWrong={Boolean(
                     isSubmitted &&
-                      selectedAnswerId === answer.id &&
-                      answer.id !== correctAnswerId,
+                    selectedAnswerId === answer.id &&
+                    answer.id !== correctAnswerId,
                   )}
                   onPress={() => {
                     void handleAnswerPress(answer.id);

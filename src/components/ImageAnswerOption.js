@@ -21,7 +21,11 @@ export function ImageAnswerOption({
     <Pressable style={[styles.card, stateStyle]} onPress={onPress}>
       <View style={styles.imageWrap}>
         {imageSource ? (
-          <Image source={imageSource} style={styles.image} resizeMode="contain" />
+          <Image
+            source={imageSource}
+            style={styles.image}
+            resizeMode="contain"
+          />
         ) : (
           <View style={styles.placeholder}>
             <Text style={styles.placeholderEn}>Image missing</Text>

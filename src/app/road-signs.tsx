@@ -1,14 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import {
-    Image,
-    LayoutAnimation,
-    Platform,
-    Pressable,
-    ScrollView,
-    StyleSheet,
-    Text,
-    UIManager,
-    View,
+  Image,
+  LayoutAnimation,
+  Platform,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  UIManager,
+  View,
 } from "react-native";
 
 import { AppHeader } from "../components/AppHeader";
@@ -170,7 +170,9 @@ export default function RoadSignsScreen() {
 
         <View
           style={
-            isImageChoicesQuestion ? styles.imageAnswersWrap : styles.answersWrap
+            isImageChoicesQuestion
+              ? styles.imageAnswersWrap
+              : styles.answersWrap
           }
         >
           {currentQuestion.answers.map((answer) => {
@@ -187,11 +189,13 @@ export default function RoadSignsScreen() {
                   enLabel={answer.en}
                   faLabel={answer.fa}
                   isSelected={selectedAnswerId === answer.id}
-                  isCorrect={Boolean(isSubmitted && answer.id === correctAnswerId)}
+                  isCorrect={Boolean(
+                    isSubmitted && answer.id === correctAnswerId,
+                  )}
                   isWrong={Boolean(
                     isSubmitted &&
-                      selectedAnswerId === answer.id &&
-                      answer.id !== correctAnswerId,
+                    selectedAnswerId === answer.id &&
+                    answer.id !== correctAnswerId,
                   )}
                   onPress={() => onSelectAnswer(answer.id)}
                 />
