@@ -1,18 +1,19 @@
 import {
-    Alert,
-    Pressable,
-    ScrollView,
-    StyleSheet,
-    Text,
-    View,
+  Alert,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 
 import { AppHeader } from "../components/AppHeader";
+import { APP_NAME, APP_VERSION } from "../config/appConfig";
 import {
-    clearSavedQuestions,
-    clearTestHistory,
-    clearWrongQuestions,
-    removeItem,
+  clearSavedQuestions,
+  clearTestHistory,
+  clearWrongQuestions,
+  removeItem,
 } from "../utils/storageUtils";
 
 export default function SettingsScreen() {
@@ -91,9 +92,9 @@ export default function SettingsScreen() {
       />
       <ScrollView contentContainerStyle={styles.content}>
         <View style={styles.itemCard}>
-          <Text style={styles.appName}>Farsi DMV Practice</Text>
+          <Text style={styles.appName}>{APP_NAME}</Text>
           <Text style={styles.subtitle}>California Permit Test Practice</Text>
-          <Text style={styles.version}>Version 1.0.0</Text>
+          <Text style={styles.version}>Version {APP_VERSION}</Text>
         </View>
 
         <View style={styles.itemCard}>

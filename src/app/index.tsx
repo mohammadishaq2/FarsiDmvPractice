@@ -4,13 +4,14 @@ import { useEffect, useMemo, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { AppHeader } from "../components/AppHeader";
 import { BilingualText } from "../components/BilingualText";
 import { colors, shadows, spacing, typography } from "../constants/theme";
 import { getAllQuestions } from "../utils/questionUtils";
 import {
-    getSavedQuestionIds,
-    getTestHistory,
-    getWrongQuestionIds,
+  getSavedQuestionIds,
+  getTestHistory,
+  getWrongQuestionIds,
 } from "../utils/storageUtils";
 
 type ActionButton = {
@@ -151,6 +152,14 @@ export default function HomeScreen() {
       <View style={styles.backgroundCircleOne} />
       <View style={styles.backgroundCircleTwo} />
       <View style={styles.backgroundCircleThree} />
+      <View style={styles.homeHeaderOverlay}>
+        <AppHeader
+          titleEn=""
+          titleFa=""
+          showTitles={false}
+          wrapSafeArea={false}
+        />
+      </View>
       <ScrollView
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
@@ -326,10 +335,19 @@ const styles = StyleSheet.create({
     backgroundColor: "#E9E7FF",
     opacity: 0.72,
   },
+  homeHeaderOverlay: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 20,
+    elevation: 20,
+  },
   scrollContent: {
     paddingHorizontal: spacing.lg,
     paddingBottom: 34,
     gap: 14,
+    paddingTop: 68,
   },
   heroCard: {
     borderRadius: 26,
