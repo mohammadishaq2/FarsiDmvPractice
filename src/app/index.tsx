@@ -2,7 +2,10 @@ import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { useEffect, useMemo, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import {
+  SafeAreaView,
+  useSafeAreaInsets,
+} from "react-native-safe-area-context";
 
 import { AppHeader } from "../components/AppHeader";
 import { BilingualText } from "../components/BilingualText";
@@ -81,6 +84,7 @@ const ui = {
 };
 
 export default function HomeScreen() {
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   const totalQuestions = useMemo(() => getAllQuestions().length, []);
 
@@ -152,7 +156,7 @@ export default function HomeScreen() {
       <View style={styles.backgroundCircleOne} />
       <View style={styles.backgroundCircleTwo} />
       <View style={styles.backgroundCircleThree} />
-      <View style={styles.homeHeaderOverlay}>
+      <View style={[styles.homeHeaderOverlay, { top: insets.top }]}>
         <AppHeader
           titleEn=""
           titleFa=""

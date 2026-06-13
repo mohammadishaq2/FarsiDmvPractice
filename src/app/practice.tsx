@@ -8,7 +8,6 @@ import {
     ScrollView,
     StyleSheet,
     Text,
-    TextInput,
     UIManager,
     View,
 } from "react-native";
@@ -46,15 +45,28 @@ function extractImageKey(imageValue: string | null) {
   return parts[parts.length - 1] || null;
 }
 
+const PRACTICE_CATEGORY_ORDER = [
+  "License & DMV",
+  "Signs & Signals",
+  "Lanes, Turns & Parking",
+  "Speed, Freeway & Intersections",
+  "Sharing the Road",
+  "Safe Driving & Visibility",
+  "Emergencies & Road Conditions",
+  "Alcohol, Drugs & Legal",
+];
+
 export default function PracticeScreen() {
   const params = useLocalSearchParams<{
     questionId?: string | string[];
     mode?: string | string[];
     ids?: string | string[];
+    category?: string | string[];
   }>();
   const modeParam = readParam(params.mode);
   const idsParam = readParam(params.ids);
   const questionIdParam = readParam(params.questionId);
+  const categoryParam = readParam(params.category);
 
   const baseQuestions = useMemo(() => {
     const allQuestions = getAllQuestions();
@@ -80,24 +92,82 @@ export default function PracticeScreen() {
   }, [idsParam, modeParam]);
 
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [searchQuery, setSearchQuery] = useState("");
+  const [hasChosenEntryCategory, setHasChosenEntryCategory] = useState(
+    Boolean(modeParam === "wrong" || questionIdParam || categoryParam),
+  );
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswerId, setSelectedAnswerId] = useState<string | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [savedIds, setSavedIds] = useState<QuestionId[]>([]);
 
-  const categories = useMemo(() => {
+  const orderedCategories = useMemo(() => {
     const uniqueCategories = new Set(
       baseQuestions
         .map((question) => question.category?.trim())
         .filter((category): category is string => Boolean(category)),
     );
 
-    return [
-      "All",
-      ...Array.from(uniqueCategories).sort((a, b) => a.localeCompare(b)),
-    ];
+    const ordered = PRACTICE_CATEGORY_ORDER.filter((category) =>
+      uniqueCategories.has(category),
+    );
+    const remaining = Array.from(uniqueCategories)
+      .filter((category) => !ordered.includes(category))
+      .sort((a, b) => a.localeCompare(b));
+
+    return [...ordered, ...remaining];
   }, [baseQuestions]);
+
+  const categories = useMemo(() => {
+    return ["All", ...orderedCategories];
+  }, [orderedCategories]);
+
+  const categoryCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+
+    for (const question of baseQuestions) {
+      const category = question.category?.trim();
+      if (!category) {
+        continue;
+      }
+
+      counts.set(category, (counts.get(category) ?? 0) + 1);
+    }
+
+    return counts;
+  }, [baseQuestions]);
+
+  useEffect(() => {
+    if (modeParam === "wrong") {
+      setSelectedCategory("All");
+      setHasChosenEntryCategory(true);
+      return;
+    }
+
+    if (questionIdParam) {
+      setSelectedCategory("All");
+      setHasChosenEntryCategory(true);
+      return;
+    }
+
+    if (!categoryParam) {
+      setSelectedCategory("All");
+      setHasChosenEntryCategory(false);
+      return;
+    }
+
+    const matchedCategory = orderedCategories.find(
+      (category) => category.toLowerCase() === categoryParam.toLowerCase(),
+    );
+
+    if (!matchedCategory) {
+      setSelectedCategory("All");
+      setHasChosenEntryCategory(false);
+      return;
+    }
+
+    setSelectedCategory(matchedCategory);
+    setHasChosenEntryCategory(true);
+  }, [categoryParam, modeParam, orderedCategories, questionIdParam]);
 
   const selectedCategoryCount = useMemo(() => {
     if (selectedCategory === "All") {
@@ -110,26 +180,13 @@ export default function PracticeScreen() {
   }, [baseQuestions, selectedCategory]);
 
   const questions = useMemo(() => {
-    const search = searchQuery.trim().toLowerCase();
-
     return baseQuestions.filter((question) => {
       const categoryMatches =
         selectedCategory === "All" || question.category === selectedCategory;
 
-      if (!categoryMatches) {
-        return false;
-      }
-
-      if (!search) {
-        return true;
-      }
-
-      const english = question.questionEn.toLowerCase();
-      const farsi = question.questionFa.toLowerCase();
-
-      return english.includes(search) || farsi.includes(search);
+      return categoryMatches;
     });
-  }, [baseQuestions, searchQuery, selectedCategory]);
+  }, [baseQuestions, selectedCategory]);
 
   const currentQuestion: DmvQuestion | undefined = questions[currentIndex];
   const totalQuestions = questions.length;
@@ -268,6 +325,61 @@ export default function PracticeScreen() {
     setIsSubmitted(false);
   };
 
+  const onStartCategoryPractice = (category: string) => {
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+    setSelectedCategory(category);
+    setCurrentIndex(0);
+    setSelectedAnswerId(null);
+    setIsSubmitted(false);
+    setHasChosenEntryCategory(true);
+  };
+
+  if (!hasChosenEntryCategory) {
+    return (
+      <View style={styles.container}>
+        <AppHeader
+          titleEn="Practice"
+          titleFa="تمرین"
+          subtitleEn="Choose a category to start focused practice"
+          subtitleFa="برای شروع تمرین هدفمند، یک دسته بندی انتخاب کنید"
+          showBackButton
+        />
+
+        <ScrollView
+          contentContainerStyle={styles.categoryPickerContent}
+          showsVerticalScrollIndicator={false}
+        >
+          <View style={styles.categoryPickerCard}>
+            <Text style={styles.categoryPickerTitle}>Select Category</Text>
+            <Text style={styles.categoryPickerSubtitle}>
+              Practice one topic at a time instead of all questions.
+            </Text>
+
+            <View style={styles.categoryPickerList}>
+              {orderedCategories.map((category) => (
+                <Pressable
+                  key={category}
+                  style={({ pressed }) => [
+                    styles.categoryPickerButton,
+                    pressed && styles.pressed,
+                  ]}
+                  onPress={() => onStartCategoryPractice(category)}
+                >
+                  <Text style={styles.categoryPickerButtonText}>
+                    {category}
+                  </Text>
+                  <Text style={styles.categoryPickerCountText}>
+                    {categoryCounts.get(category) ?? 0} questions
+                  </Text>
+                </Pressable>
+              ))}
+            </View>
+          </View>
+        </ScrollView>
+      </View>
+    );
+  }
+
   if (!currentQuestion) {
     return (
       <View style={styles.container}>
@@ -279,14 +391,6 @@ export default function PracticeScreen() {
           showBackButton
         />
         <View style={styles.emptyWrap}>
-          <TextInput
-            value={searchQuery}
-            onChangeText={setSearchQuery}
-            placeholder="Search English or Farsi question"
-            placeholderTextColor="#7A92A8"
-            style={styles.searchInput}
-          />
-
           <ScrollView
             horizontal
             showsHorizontalScrollIndicator={false}
@@ -353,14 +457,6 @@ export default function PracticeScreen() {
         contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
       >
-        <TextInput
-          value={searchQuery}
-          onChangeText={setSearchQuery}
-          placeholder="Search English or Farsi question"
-          placeholderTextColor="#7A92A8"
-          style={styles.searchInput}
-        />
-
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -560,15 +656,52 @@ const styles = StyleSheet.create({
     paddingBottom: 30,
     gap: spacing.md,
   },
-  searchInput: {
-    borderRadius: borderRadius.sm,
-    borderWidth: 1,
-    borderColor: "#CEDFF1",
+  categoryPickerContent: {
+    padding: spacing.lg,
+    paddingBottom: spacing.xl,
+  },
+  categoryPickerCard: {
+    borderRadius: borderRadius.lg,
     backgroundColor: colors.card,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
+    padding: spacing.lg,
+    gap: spacing.md,
+    ...shadows.card,
+  },
+  categoryPickerTitle: {
+    fontSize: 20,
+    fontWeight: "800",
+    color: "#183955",
+  },
+  categoryPickerSubtitle: {
     fontSize: 14,
-    color: "#1A3D5A",
+    lineHeight: 21,
+    color: "#4D6A84",
+  },
+  categoryPickerList: {
+    gap: 10,
+  },
+  categoryPickerButton: {
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: "#D3E3F4",
+    backgroundColor: "#F8FBFF",
+    paddingVertical: 12,
+    paddingHorizontal: 14,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: 8,
+  },
+  categoryPickerButtonText: {
+    flex: 1,
+    fontSize: 14,
+    fontWeight: "700",
+    color: "#1B4A72",
+  },
+  categoryPickerCountText: {
+    fontSize: 12,
+    fontWeight: "700",
+    color: "#4A6781",
   },
   chipsRow: {
     gap: 8,
